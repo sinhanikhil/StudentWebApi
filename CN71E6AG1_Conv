@@ -1,0 +1,2880 @@
+'''
+# Question: 0
+hello team,
+This is regarding Create Form Task. Please let me know if it's not the correct channel :keanu-thanks:
+
+I have a partner who sends a dynamic source for a Drop-Down List in the Create Form Task -&gt; Open Form Designer
+• Example of Values:
+    ◦ A
+    ◦ B
+    ◦ C
+They also send a prepopulated value that comes from AI (which we all know, could hallucinate), so they send the prepopulated following Value:
+    ◦ D
+When selecting the values, D also comes up as a "valid" value, even though it should not.
+
+my suggestion to them was to do pre-processing, to make sure that the values are mapped correctly, however, the pertinent scenario of transmiting the following information to the user: "PLEASE REVIEW - AI recommends D", is also valid.
+
+is there any way we can have the "required" for the form to only enable the values of the source data?
+
+cc: <@WLXP0272L>
+** Probable Answers: **
+1. Could you please Share me a sample Workflow to replicate this issue.
+2. I think we found a solution using Javascript. We changed the dropdown argument to an in/out and we were able to access it in the Javascript logic to do the validation there
+'''
+'''
+# Question: 1
+Hi Team!
+
+My customer Cigna is getting the following error: "*<http://cloud.uipath.com|cloud.uipath.com>* refused to connect". When they are trying to see with preview of documents through action center that are loaded into a uipath hosted storage bucket.
+
+They create the following case in Salesforce: 02409570
+<https://uipath.lightning.force.com/lightning/r/Case/500Pa00000CXlCXIA1/view>
+
+But I would like to know if you have any idea what may be happening, and what I should review tomorrow in the meeting with them?
+
+Thank you in advance for your help!
+** Probable Answers: **
+1. <@W0173AXGRP1> is looking into this issue <@U05RK0X363A>
+2. <@U05RK0X363A> Can you share me the workflow which i could use to reproduce this issue? The HAR file reflects no issue.
+Could you share me a video recording for the issue as well ?
+3. <@W0173AXGRP1> Hi team! Thank you for your quick reply, I will connect with the team at 10 am CT, so I will request the code and record the error.
+Would you like to join the meeting with me to validate the topic?
+'''
+'''
+# Question: 2
+:alert: team, is the actions service down on staging?
+** Probable Answers: **
+1. cc: <@W0173AXGRP1>
+FYI - staging is working for me
+2. I tried incognito etc... :thinking_face:
+3. Can you check if the service is enabled from Admin?
+4. the services are enabled, looks like orchestrator doesn't work as well, so it might be a bigger problem
+5. Yeah, if the API calls to Orchestrator are failing then Action Center would not work as we have dependency on Orchestrator
+'''
+'''
+# Question: 3
+Hi Team!
+
+What is the difference between Reassigned and Forwarded?
+
+After reading the documentation I have only found that Reassign can only be used by the admin, but Forward can be used by admin or normal users. But I don't see any difference at the process level.
+
+Thanks,
+** Probable Answers: **
+1. &gt; But I don't see any difference at the process level.
+You are right, no difference at the process level
+2. cc: <@U03E3EYC7QD>
+3. Thanks <@WNX660CV9>! :smile:
+'''
+'''
+# Question: 4
+hi team,
+customer *<https://uipath.lightning.force.com/lightning/r/Account/0011Q00002ASvgVQAT/view|Office of Public Works>* has a question regarding the tasks in Action Center.
+
+Scenario:
+A task is created and user A will assign himself., they are not using action catalogs.
+Classify the task
+Now the action is getting unassigned
+
+Is this an expected behavior ? A task to be unassigned after classify?
+
+Thank you!
+** Probable Answers: **
+1. &gt; A task to be unassigned after classify?
+<@U0533HR8F6X>, are you referring to `Classify Document` or `Create Classification Validation Task` activity? If yes, please reach out to <#CQ7R1EQL8|help-documentunderstanding>
+2. thank you <@WNX660CV9>!
+'''
+'''
+# Question: 5
+hello team, it seems not possible to see if a task has comments unless the user open the comments section. What if we add a little icon in the task list when an item has comments? (good idea from <@U05HGFEJP2Q>)
+** Probable Answers: **
+1. I agree with this idea. During the demo this morning, I couldn't even find back the task where I originally had added the comment.
+2. I've also noticed that the "properties" section has a "Comments" textbox where if you add a comment you see it in the Comments section...not sure if this may be confusing for an end user
+3. Cc: <@U03E3EYC7QD> <@U06KMV4RG1M>
+4. :tada: *New note created.*
+'''
+'''
+# Question: 6
+Hi Team!
+
+Why in GxP don't have the option to enable Insights Connection? Is there a way to enable it for the client? or when will the release be in GxP?
+<https://cloud.uipath.com/evernorth>
+
+Thanks!
+** Probable Answers: **
+1. Insights Integration Changes are not deployed yet in GXP. It should go with S138 GXP deployment.
+CC: <@U03QQFRBFUN>
+2. Thanks <@U03MPBFHHEG>! Could you please tell me the release date of the 138 GXP deployment? to be able to give a date to the client
+3. I will get back to you soon on this. I have already asked within the team just now.
+4. Amazing! Thank you so much! :smile:
+5. Hi <@U03MPBFHHEG>, please can you give me an update as soon as you have the information? thank you so much!
+6. <@W0173AXGRP1> please notify here after the deployment of GXP is complete
+7. <@U05RK0X363A> It is deployed, You can check now.
+8. Thank you! :smile: I will check with the customer because I don't have a GxP environment
+'''
+'''
+# Question: 7
+hello team, do you know when this fixed bug will reach EU production?
+** Probable Answers: **
+1. cc: <@U03B4909B42>
+2. S142 will be deployed next week, currently it has reached staging
+3. thanks a lot
+'''
+'''
+# Question: 8
+Hello team,
+
+Do you see fit a refresh button in the main Action Center  dashboard? I noticed that the various indicators continue to show the old data until a manual browser refresh. As in other Cloud screens / products, a refresh button could do the job. Seeing the button on the page would also suggest to the user that the data might not be accurate unless refreshed. Another solution could be an automatic refresh after each action taken on an task.
+** Probable Answers: **
+1. Cc: <@U03E3EYC7QD> <@U06KMV4RG1M>
+2. :tada: *New note created.*
+'''
+'''
+# Question: 9
+Hi Team,
+
+About the following new improvement: "Each tenant now receives an email digest, grouped by services. The digest includes the tenant's name. Emails feature a unique sender ID and name, personalized to each tenant."
+
+• The Cigna client is asking me for more documentation about this improvement, do you know where I can find it?
+• Also they asked: For all emails, we have the option to turn on or off, but for *Each tenant now receives an email digest, grouped by services*. Is it still the same or where we could control this? e.g. if we don’t want it to turn on for some tenant. What steps are needed here.
+I checked the new academy courses and the latest release notes, but there is no additional information either
+<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/release-notes-may-2024>
+** Probable Answers: **
+1. <@WNX660CV9> is checking this and will be getting back to you by EOD
+2. The documentation might not be correct as digest feature is enabled only for orchestrator service. I will check further with <@U05MV2GMCF8> 
+Cc <@U03E3EYC7QD> <@U02L25A27RD> 
+3. Thank you, <@U05RK0X363A>, <@U03QQFRBFUN>, <@WNX660CV9>. I'm checking this with <@U036HL477AQ> and get back with an answer.
+4. Hi, everyone! The documentation for the email digest is in the last step from this <https://docs.uipath.com/automation-cloud/automation-cloud/latest/admin-guide/managing-notifications#customizing-email-notifications-for-your-organization|section>. Indeed, it is not specified that’s available only for Orchestrator. This was a problem from when we initially documented it. <@U05MV2GMCF8> would you be kind and mention this in the docs, pls? 
+
+<@WNX660CV9> pls let us know if we should mention anything else.
+
+Thank you for your understanding, and we’ll make sure to fix this gap in our notification service process.
+5. Thank you so much, <@U036HL477AQ>
+6. @Serban Diana created a Bug DOC-13563 Specify that the digest feature is only enabled for Orchestrator
+7. &gt;  Indeed, it is not specified that’s available only for Orchestrator.
+Let me double check on this with <@U02L25A27RD> and <@W011N9D12SJ>
+8. At present digest feature is enabled only for Orchestrator events. Orchestrator onboarding to notification is being verified in staging at the moment. cc: <@U03E3EYC7QD>
+9. i don't think this is a documentation only issue. this needs to change in the product as well. we cannot have digest option on the email config page, if it applies to Orchestrator only.
+'''
+'''
+# Question: 10
+Hello Team
+One of the customer is facing the following issue-&gt; Action center throws exception when file name have spaces between the words. It is working fine once the spaces are removed,
+The same file with or without spaces works fine in their QA environment. Issue is only in their PROD, Customer is using automation suite, action center. The versions are same and the QA is a mimic of prod.
+The attached is the error, they are seeing now and it seems generic. Kindly let us know your insight. Thank you
+component version - 23.10.2
+** Probable Answers: **
+1. Hello Team. Kindly let us know if you could help us with the issue.
+
+CC: <@U03QQFRBFUN> and <@U05RK0X363A> I apologize for tagging. Please redirect me if this is not the right place to ask.
+'''
+'''
+# Question: 11
+Hi team, I was helping customer install on-prem AC. We finish going through the install steps when a windows defender message popped up which then froze the VDI and had to restart the image. When looking at the logs of the install the only error I could see is this one here `"MSI (c) (6C:6C) [19:06:11:781]: APPCOMPAT: looking for appcompat database entry with ProductCode '{F4F567BB-B89F-4745-B644-B59DA993F637}'.`
+`MSI (c) (6C:6C) [19:06:11:781]: APPCOMPAT: no matching ProductCode found in database.`
+`MSI (c) (6C:6C) [19:06:11:781]: Transforms are not secure.`
+
+Is this just a license issue or something else? Logs attached
+** Probable Answers: **
+1. CC: <@U01D58SEX8D>
+'''
+'''
+# Question: 12
+Hi Team,
+
+The customer Cigna is asking again about the limitation "In the case of folders that have permissions set for DirectoryGroup, all Azure AD users appear in the Assign To User dropdown list, even if they don't have permissions for the specified folder."
+
+<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/introduction#known-limitations>
+
+Do you have an estimated date for this enhancement? Do you have any ticket or tracking number for this enhancement?
+We would like to have a place to validate the status of this request
+
+Thank you!
+** Probable Answers: **
+1. <@U03QQFRBFUN>, <@WNX660CV9> Sorry for tagging you, but I've been looking for this answer for a round of 2 months so I can give Cigna an estimated date. And maybe you can help me, thank you so much for all your support :smile:
+
+<https://uipath-customer-ops.slack.com/archives/CN71E6AG1/p1712692939900189>
+2. This is a limitation from the Orchestrator side. We will check with the OR team and update
+'''
+'''
+# Question: 13
+Hi Team.
+
+Are there any known limitations on AC dropdowns?
+
+Length and number of values?
+Per Dropdown or across multiple dropdowns on 1 screen?
+** Probable Answers: **
+1. I don't think there is a hard limit on the no: of dropdowns, but we would soon have a 1MB limit on the overall form data.
+
+That said, if we have too many dropdown values, it would impact the form performance.
+
+cc: <@W0173AXGRP1> <@U03MPBFHHEG>
+'''
+'''
+# Question: 14
+Hello Team,
+
+Currently, the data grid of the form
+When the 'AddAnother' button is pressed, it is recognised that a row is added at the bottom.
+A customer has asked whether it is possible to have a new row inserted at the intended position.
+
+Is it correct that this is not possible as the user cannot adjust the datagrid in the specification?
+** Probable Answers: **
+1. A new row is inserted as the last row of the grid. However, if `Allow Reorder`  is checked in the form design, the user can reorder the datagrid rows
+'''
+'''
+# Question: 15
+Hi Team,
+
+Do we plan to release any specific RBAC or rights segregation for Action Center? I am specifically interested in the action catalogues. As it stands, their rights are governed through the Orchestrator folders. We have a customer that would like to define roles/rights per each individual catalogue, without relying on Orchestrator folder governance. Any suggestion, feedback, or info is welcome.
+
+Thanks!
+** Probable Answers: **
+1. <@U03E3EYC7QD> <@U06KMV4RG1M>
+2. Sorry to get back on this but unfortunately we have had no feedback on this point :slightly_smiling_face: Thanks again.
+'''
+'''
+# Question: 16
+Hi Team, I've a question regarding DU Validation on Action Center. We have a document type "Set" which we populate the dropdown with a list of data. Just want to check if there's a limit on the no. of items in the dropdown?
+Coz we have almost 1000+ items.
+** Probable Answers: **
+1. <#CQ7R1EQL8|help-documentunderstanding>
+'''
+'''
+# Question: 17
+Hi, I have a customer who keeps getting timed out of action center which has caused them to pause their entire production environment. It takes their employees 2+ hours to complete classification tasks in action center and if they leave to take a break, their session is timed out by the time they get back and all their work is gone. Is there is a way to extend session lengths in action center or intermittently save progress made in tasks without submitting?
+** Probable Answers: **
+1. <@U064PFDQYJJ>, could you please more information about the environment? Is it cloud/AS/on-prem? If AS/on-prem, please provide the AC version the customer is using.
+ cc: <@W0173AXGRP1>
+2. A user can always save the current state by clicking the save button on the loaded Task. They need not submit the task
+
+Also which environment is this issue related to?
+3. <@W0173AXGRP1> standalone Orchestrator 2023.10.1 and Action Center 22.10.5
+4. Okay, you try editing The ActionCenter identity client timeouts in The DB.
+5. Refer to this -&gt; <https://uipath.atlassian.net/browse/ACTN-6012?focusedCommentId=2315964>
+'''
+'''
+# Question: 18
+hi team
+could you please let me know if this is a known issue / change in Action Center?
+<https://uipath-product.slack.com/archives/CN71E6AG1/p1715594102503789>
+
+Many thanks in advance!
+** Probable Answers: **
+1. Hey <@U0533HR8F6X> this seems to be a known issue with ticket: <https://uipath.atlassian.net/browse/ACTN-6447?atlOrigin=eyJpIjoiYzg5ODVkNjJiOGU0NDU3NDgwNTVjNGMxMmI1MTZkODEiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|https://uipath.atlassian.net/browse/ACTN-6447?atlOrigin=eyJpIjoiYzg5ODVkNjJiOGU0NDU3NDgwNTVjNGMxMmI1MTZkODEiLCJwIjoiamlyYS1zbGFjay1pbnQifQ>
+2. Thank you a lot <@W0173AXGRP1> ,  <@U02Q9DN4286>
+this is an improvement ticket, like and Enhancement request (Technical Improvement Feature) or it is treat like a customer issue ?
+i'm asking to know if i can close the ticket or should i keep it opened until issue is fixed
+Thank you!
+3. This will get fixed with S142 release.
+4. what that means in terms of time ?  when this release will be deployed?
+5. <https://uipath.atlassian.net/wiki/spaces/BPA/pages/87480303620/2024+Action+Center+Cloud+Sprint+Release+Calendar>
+6. wow... that is great, i was looking for this kind of tool way time ago!
+many thanks!
+7. hi <@W0173AXGRP1>
+could you please change the task into customer issue or bug in order to be able to associate the bug to my salesforce ticket ?
+thank you!
+8. Done, its a bug now
+'''
+'''
+# Question: 19
+Hi Team!
+
+JNJ customer is working on its first implementation with Action Center, and they want to validate the best practices for deploying Action Center catalogs between environments, Do we have any best practice guides for this? Is there a way to import and export the catalogs?
+
+I am doing a test using Solution Management and the catalogs do not appear (Images 1 and 2), but in the documentation it says that it is supported.
+
+<@WLXNUE3LY>
+** Probable Answers: **
+1. I am checking this
+2. Btw, are you able to other resources in that folder?
+3. You were right, the problem was permissions, apparently being the "Folder Administrator" is not enough, the "Administrator" role in the folder is necessary. Adding this role worked correctly.
+
+This makes sense? What is the necessary permission to view the elements?
+
+Thank you!
+4. <https://docs.uipath.com/solutions-management/automation-cloud/latest/user-guide/prerequisites> - The required roles for solution management are tenant-level roles. Hence Folder Administrator is not enough.
+'''
+'''
+# Question: 20
+Good morning Team
+With <@U0506FSPFUY> we have a problem with an account, they can not use the action center, and we don't find how allocate the license, or where validate if they have it, because the have a free trial for AI Center with AI Units.
+** Probable Answers: **
+1. AC licenses are not enforced.
+I see the workflow giving non-authenticated user error.
+Cc: <@WLXNV2TLY> as the activity is related to DU
+'''
+'''
+# Question: 21
+hi team
+
+Customer *<https://uipath.lightning.force.com/lightning/r/Account/0011Q00002AQl9JQAT/view|Grupo Antolin Irausa>* is asking if we change back the display date.
+Go to Actions-&gt; Choose a Pending Action -&gt; open it -&gt; go to 3 dots -&gt; open Action Summary
+When the mouse is hovered over the Creation On, it used to show the Datetime in the format ‘Day, Month, year, timestamp’, but the format has changed for another one that is hard to understand what date it is (Month +Number e.g.: May +3)
+
+Thank you!
+** Probable Answers: **
+1. <@W0173AXGRP1>, for your attention.
+2. @Ayushya Jaiswal created a Task ACTN-6447 Task Summary Date Time Hover is not showing detailed time
+'''
+'''
+# Question: 22
+Hi  Team,  One of the customers is having issues rearranging pages in the classification task. We're checking if this is a limitation. They want to move page 3 to page 1.
+** Probable Answers: **
+1. yes, this is a limitation. We don't support this scenario of rearranging the pages inside a document.
+'''
+'''
+# Question: 23
+Hi Team,
+
+Request your help on the below <https://uipath.lightning.force.com/lightning/r/Case/5005b00002A9qPvAAJ/view|customer issue>.
+
+*Issue*: For a few users, intermittently *format* gets changed(from English to weird symbols) for a couple of *invoices* in the action center.
+
+*Description*:
+•  The customer found the invoice with data extracted in *English*, but the action center changed the formatting completely in the display.
+• the same invoice appears fine in plain English when they open the invoice in the Action Center or even when the same user logs in to the Action Center from their PC.
+•  *Some* of their client users have experienced this issue and reported it to the customer internally. But if customer searches the same document in the Action Center, it looks good. 
+*Attachments*:
+Video, HAR file
+
+• _During the whole video, the user has shown different examples of documents with special/weird characters appearing in the Action Center for their clients._
+•  _00:00:32 --– user loads one of the invoices with special characters_
+• _until 00:01:29 ---collecting Har_  
+• _until 00:04:59 ---then the user shows some other examples of invoices with special characters and trying various things (refreshing browser, restarting UiPath session, trying a different browser, etc.)_
+Thanks in advance!
+** Probable Answers: **
+1. <@U0276RKSD8D> - AMER Team to have faced 4 Cases as of now with the above behavior.
+
+I was suspecting that it could be an issue with the browser. When I ask the customer to open Action Center in Mozilla he was not facing any issue.
+
+Lets wait for Product Team to tell us.
+2. Yes..thanks for your inputs Rutvik!
+3. <@WLXNV2TLY> can you please have a look in here? file seems to be all squiglys
+4. (in chrome)
+5. Hi <@WLRCUUUTT> <@WLXNV2TLY> - I would request your help to fast track this issue. There might be a potential escalation as customer is dissatisfied with resolution time on this.. Please let us know when can we expect an action plan on this so that same can be shared with customer. Looking forward for your help on this :slightly_smiling_face:
+6. sure, we'll try to look into it today. Sorry for the delay
+7. <@U02MUKR8WAU> Any update on this issue. Do you have any Jira opened for this issue?
+8. Lets try and follow the formal escalation procedure for these. Open an ER and the MCS can raise a jira. The dev team is not accountable for anything and if this did turn out to be a bug, any delays would be on support at this point.
+
+On  the other hand, if we follow the escalation procedure there is accountablility
+9. <@U0276RKSD8D> Lets get an ER created with all relevant information
+10. sure..thanks all!
+11. <@W014NNZMPQ8> investigated a bit this issue but we are unable to reproduce it.
+
+<@U0276RKSD8D> We believe that it's an issue with some fonts used in those documents (Helvetica font) that are missing on the machines used by the client. Anyway, we've created <https://uipath.atlassian.net/browse/ACTV-71514?atlOrigin=eyJpIjoiNzkyODBmZjdmYTdiNGVlZmE3Y2Q2YzdlZjhjODdiNDUiLCJwIjoiamlyYS1zbGFjay1pbnQifQ|an issue> in our sprint and we'll try to find ways to reproduce it and fix it. In the meantime would be really helpful if you could ask the client the following questions:
+1. what environment are they running on (OS version, browser version)
+2. do they have the Helvetica font installed on those machines?
+3. what fonts are used in the documents that have this kind of issue?
+4. can they please send the browser's console logs as well
+12. Hi ..below is the pdf in which customer's client is facing the issue.
+
+Also customer confirmed as below,
+
+_When I view the same document, it appears to be fine on my PC._
+_Should this be related to license (or type of user role), as I could never see a document like this and I have admin access._
+13. ok, so the issue is not intermitent. The problem is that these documents use the `Helvetica`  font which seems to be missing from the Windows computers, but they are available on most of the Apple computers. The workaround would be to install the Helvetica font on that machine, but be aware that it's not a free font, needs to be bought. The other workaround would be to transform that document from PDF into an image (PNG, JPG) and use the image instead, but I'm not sure if they can do that.
+
+In the meantime we'll fix the issue on our end, but it will take about 1 month to reach the prod, because we depend on the . Would that be ok for the customer?
+14. @Sergiu Bologa created a Bug ACTV-71565 [FE][PDFViewer] PDF documents using Helvetica font don't open correctly in PDF viewer
+15. thanks..let me check with the customer
+16. customer is asking as below,
+
+_Although, I am still looking for an answer on how it is an issue all of sudden, when we have been sending /submitting invoices in Action center for past 14 + months for the same suppliers without any issues. E.g. whether there were any changes/released in the Action Center program from your end or changes from our end, or something else??_
+17. Good question, but I don't know. We haven't made any changes recently so I suspect that their documents started to use the Helvetica font only recently. Can they check this maybe? This would help if we can confirm.
+
+Anyway, we'll try to reproduce the issue before fixing it so we're sure we've fixed it.
+18. Are the users on the same machines where it has worked for the past 14 months? did the customer mention if on the same machine, a very similar document worked before and it does not work now?
+19. Its same user with same machine and same documents were working fine
+20. what do you mean same documents? Are they processing exactly the same documents?
+21. I mean same font documents
+22. Could you please get one working and one non working document ? So we could compare? Or plan for a call sometime next week IST time?
+23. sure..ill ask for their slots
+24. but only if they can provide a user who has this issue on their machine and they can share their screen
+25. okay
+26. Hi <@W014NNZMPQ8>, the customer confirmed that the User is available anytime other than Tuesday (tomorrow) ACST (UTC + 9:30). Please let me know your availability.
+27. I think you wanted to ask <@WLRCUUUTT>. Please invite me and <@WLRCUUUTT>. For me it's fine that time
+28. Would 9AM RO time on Wednesday be okay? that would be... 15:30 ACST I think but please double check!
+29. sent out an invite--Wednesday 15.30 acst. Thanks
+30. <@U0276RKSD8D> can you please send that HAR file when you get it from Tracey?
+31. sure..thanks!
+32. thank you for organizing the call with the client :slightly_smiling_face:
+33. <@U0276RKSD8D> - can you please help me set up a half hour call with Chandan and Tracey? do they have some sort of sales person assigned who can help? and which customer is this? :smile:
+34. yes, the account is *HEP Australia Holdings Pty Ltd,* handled by <@WM8AXCSQY>
+35. <@U0276RKSD8D> it’s not Nao, she’s he from Japan :)) do you have any other name? Thank you!!!
+36. I could not find any other contacts in Salesforce
+'''
+'''
+# Question: 24
+Hi Team - An ES client raised this issue to me. Whenever they do custom date filter in Action Center they are prompted with an error "An unexpected error has occured. Please try again later (Cannot read properties of undefined (reading 'target'))". Please see screen recording attached.
+
+<@U03JJMSEDAP>
+** Probable Answers: **
+1. <https://uipath.atlassian.net/browse/ACTN-6235>
+
+This issue has been fixed by <@W0173AXGRP1> and would be available in the next release (ETA 2 weeks)
+'''
+'''
+# Question: 25
+Hi team,
+My client asked me about the following error message when activating the Process Launcher in Automation Cloud.
+```Invalid odata query options. Error Code: 1000```
+From my investigation, disabling the "Strict API" option in Orchestrator has prevented the error from occurring, but have you considered improving this?
+I looked at the Jira tickets that might be involved but could not find any progress.
+<https://uipath.atlassian.net/browse/ACTN-4907>
+<https://uipath-product.slack.com/archives/CRKTWD65U/p1708421620895799>
+( cc : <@WLZK2JS6T> <@U03T573S5GQ> <@U04ARRTQ5SP>)
+** Probable Answers: **
+1. Strict API does not support sorting on the time fields to list the data for recent runs in Processes.
+
+We are looking at deprecating this particular info panel in the sidebar. cc: <@U03E3EYC7QD> <@U03MPBFHHEG>
+2. <@U03QQFRBFUN> Thank you for your comment.
+I understood the direction. As a user, I may need the ability to filter by time, so it is a difficult issue.
+Is there a plan to document this issue as a known limitation? I am wondering if you are having trouble with errors, including other users.
+'''
+'''
+# Question: 26
+hello team, I have a partner who raised awareness that client _*Stromnetz Hamburg*_ encountered a problem:
+
+they are asking if there is a way to deactivate the display.
+** Probable Answers: **
+1. <@WLX9A3Q04> You can customize the *All Users* table, by removing columns from the table. Click dropdown icon next to  *Columns* as shown in the snap below and deselect the column you wish to remove.
+2. is there a way for this to persist or will it return to default showing at every refresh?
+3. Yea, seems like it won't persist after the refresh. <@U03E3EYC7QD> Could you please look into this....seems like customize column option goes back to default view once refreshed or is it an intended design?
+4. <@WLX9A3Q04> I did a check. right now, the inbuilt capability is as such that it will return default after refresh. We will have a look into it and try to bring in the capability where we can have these customized views.
+'''
+'''
+# Question: 27
+Hi all. Product support has 4 customers waiting on <https://uipath.atlassian.net/browse/ACTN-6235|ACTN-6235>. One of the cases was created ~3 weeks ago, and the remaining cases were created in the last week. Can someone please review and provide a workaround and/or a fix ETA?
+CC <@W0173AXGRP1> <@U03QQFRBFUN> <@WQE1SAA4U> <@WLXNXQH7A> <@U03A76XM2FP> <@U027J0JL4CU> <@U02QQL4A5JP> <@U0533HR8F6X> <@WLZK126GP> <@WLXNXQHGQ> <@U02JQUVRY75> <@WLZTMGQB0>
+** Probable Answers: **
+1. Thanks for replying in the Jira <@W0173AXGRP1>!
+2. No problem.
+3. The issue is fixed. The changes would be rolled out to Customers in next two weeks.
+'''
+'''
+# Question: 28
+Hi Team,
+
+Do we have our official document/steps using the Action Center?
+----------
+Could you help to suggest and correct me, please? Thank you very much.
+** Probable Answers: **
+1. <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/introduction>
+are you looking for something more specific?
+'''
+'''
+# Question: 29
+This message was deleted.
+** Probable Answers: **
+1. hey Sharath, could you add more context here? what's needed from Action Center?
+2. Hello Shiva 
+I apologize, I thought I deleted it. I found the answer. Thank you for your time. I will go ahead delete the thread
+'''
+'''
+# Question: 30
+Hello, I am getting the following error while moving the row. Any thoughts...
+** Probable Answers: **
+1. Hi <@U0363F28KNE>, Good Afternoon. May I know in which environment are you facing this issue? Also, can you please provide us with the HAR file and check if you can see some issues in console and please provide us with that? Thanks!
+2. I am using the uipathlabs and Playground tenant. HAR file attached
+3. Any luck <@U03DA6HLSCA>...
+4. Please find the console log attached for your reference.
+5. Hey <@U03DA6HLSCA>. Is there any update as I have a client demo tomorrow morning?
+6. We don't see anything in HAR file, although we see quite a lot of errors in the console. Please attach the HAR file for when the task is loaded. Apart from that, is this an App Task or a Form Task?
+7. Seems like it's a form task, the error was captured at our end. Can you please provide us with a sample workflow for this? We will try replicating it at our end and check if we see any errors.
+8. Hi <@U0363F28KNE>, due to some issues, we are not able to debug on this. For better debugging, can you please provide us with the isolated Form Task Activity with Mock Data? Thanks in advance!
+9. We're suspecting some logic to be failing since we are reordering the columns in the Grid.
+10. Hi <@U03DA6HLSCA>, Sorry for the late reply. I have the cleaned up the project to replicate the issue. If I just keep the 2 grid, it works, but if i add the 2 fields it gives the error. Hope it helps.
+11. <@U03QQFRBFUN> 
+12. Hi <@U03QQFRBFUN>, Hope you were able to replicate the issue?
+13. <@U03MPBFHHEG> could you please help here?
+'''
+'''
+# Question: 31
+*[Action Center - Insights Integration ]* -
+Hello Team,  The integration was released on March 1 (<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/release-notes-march-2024#1-march-2024>). I do not see it yet on Delayed ring. Do we have a date  when it will be available on that Ring? I am checking because it was released 5 weeks ago and not yet on Delayed ring.
+** Probable Answers: **
+1. hey Naji, this is being shipped with the S140 payload for the delayed rings. it should be in GXP by May 16. <@WLXPBCD0V> can you please confirm?
+'''
+'''
+# Question: 32
+Hi folks, can you change a `Pending` task to `Unassigned` via Studio Workflow? For instance if a task has been pending for N time, move it back to `Unassigned` cc: <@U06G4TE7MJ7> <@WLMUX4KAN>
+** Probable Answers: **
+1. <@U057BU0KUTS> If I understand your question right, do you need an activity for AC in studio which enables the "Pending" task to "Unassigned" automatically for certain period of time it rested in pending action stage?                                                   We can still do the same in AC page: To change the pending tasks to unassigned state/To unassign Actions make sure you are in the manage actions view. On the Pending tab, click the More options menu for the desired Action. Select Unassign to remove the Action from the current user assignment.                          CC <@U03E3EYC7QD>
+2. I believe this can be done today with the Tasks endpoints in the Orchestrator API 
+3. hey Nathan, we're building an activity called `Configure Task Timer` that you can use to set an SLA timer on a task and an outcome on timer expiry. the outcomes supported today are `Alert user` and `Reassign`. we can explore adding an `Unassign` outcome to it (<@WNX660CV9>).
+
+this is in alpha now, and should be in prod in a few weeks.
+4. NICE! This is great <@U03E3EYC7QD>. Exactly what the customer is looking for.
+5. Hi <@U03E3EYC7QD> Do you have any firm timelines for this rollout as my client is also looking for this feature for certain use cases. Thanks!
+6. <@U020WR2BXRB> this should be in production in all regions by July 1.
+'''
+'''
+# Question: 33
+Hi team,
+
+A customer has an issue with the drop-down menus in Action Center Cloud, since last week, they only see a single entry and the search does not work properly (see screenshot below)
+
+Checking on my side, I also see a similar behavior on both Cloud and Staging.
+
+Is this a known issue? I could not find a Jira ticket for it.
+
+Thank you
+** Probable Answers: **
+1. Update to this:
+
+ I was able to reproduce this using:
+
+1. Tab
+    a. Data Grid
+        i. Dropdown
+And selecting the Dropdown Widget Type as "ChoiceJS" instead of HTML5 (see the screenshots below)
+
+Is this known? Customer states it's only been happening for about a week.
+2. Hi team, can you please take a look at this?
+
+A similar issue happens when using HTML instead, where the search does not return results when there are many items, is this a known behavior?
+3. <@U03DA6HLSCA> is this related to Angular 17 upgrade?
+4. Hi <@U03QQFRBFUN>, this seems like an issue with Forms.
+
+<@W011TETMQ84> Can you share a sample standalone Form Task Activity with mock data?
+
+CC: <@U03MPBFHHEG>
+5. sure, please see this:
+
+First dropdown uses HTML5, which is okay but does not have a search
+Second dropdown uses ChoiceJS, which has search but somehow expands inside the iframe.
+
+Screenshots are taken from Assistant, but same happens in a browser
+6. <@U03DA6HLSCA> <@U03QQFRBFUN> <@U03MPBFHHEG>
+
+Hi, should I open a Jira to have an official investigation on this?
+7. <@U03MPBFHHEG> could you please take a look at this FormIO issue?
+8. Sure, I will look into this.
+9. <@W011TETMQ84> Can you share the workflow for the nupkg file you have shared.
+10. that's the whole project
+11. it's my repro, not from the customer
+12. to reproduce that you have to embed a dropdown somewhere
+13. I am able to reproduce this issue.
+14. Hi <@U03MPBFHHEG> should I make a Jira for this?
+15. Sure, create a ticket
+16. <https://uipath.atlassian.net/browse/ACTN-6514> Created this
+'''
+'''
+# Question: 34
+Hello Team, I have a customer who had an UI Issue with Action Center.
+
+1. As seen in the first screenshot, the "Freight Rate", it was squeezed and unable to fill in any data.
+2. As shown in the second screenshot, the "Freight Rate" was looking good and will be able to enter data. But the actual document was missing and table 2 is outside of the box.
+3.  It looks fine in preview. 
+This issue started happening from past 1 week. No Code was changed.
+
+Attaching a video for reference. You can start watching at 00::37 to 1:50 you will be able to understand the issue
+
+FYI.. Behavior is same on Edge, Mozilla and Chrome. Up on checking the Control Panel, the recent update of Edge and Chrome were taken place on 04/19. I am suspecting that would have cause.
+
+Is this known issue or did I or customer miss any. Thanks in advance!
+** Probable Answers: **
+1. CC: <@U029VUVHB0D> <@U0243HMPPSN>
+2. <@U03QQFRBFUN> It seems like a bug. Could you please have a look ?
+3. <@U03QQFRBFUN> - Checking if you have any updates.
+4. <@U02QQL4A5JP> pending <@U03QQFRBFUN>'s confirmation,
+if a bug has not already been created, we can create one for them to take a look further.
+5. CC: <@WLZJP9J15>
+6. <https://uipath.atlassian.net/browse/ACTN-6398>
+<@U03MPBFHHEG> could you please take a look at this Form IO issue?
+7. Hi <@U02QQL4A5JP>, can you please share  a sample workflow for this?
+
+CC: <@U03MPBFHHEG>
+8. <@U03DA6HLSCA> -
+1. Actual Process - Truck Ticket Capture
+2. 3 - Custom Libraries
+3. Input Email. 
+9. Hi <@U02QQL4A5JP>, for better debugging, can you please provide us with the isolated Form Task Activity with Mock Data? Thanks in advance!
+'''
+'''
+# Question: 35
+Hello Team,
+
+Request your inputs on the below <https://uipath.lightning.force.com/lightning/r/Case/5005b00002C6DrLAAV/view|customer issue>,
+
+*Description*:
+
+1. Customer is using form activity to send form task to Action Center.
+2. It consists of number of rows.
+3. If we delete 1 row and then edit the row item then it will _*not allow us to save or cancel ---->*_If we click on edit button of 1st row, then instead of opening 1st row it is opening 2 rows and then proceeding further it is not able to do any further steps like click on Save button or Cancel button.
+*Observation*: If they save the action and refresh the browser, the issue doesn't occur.
+
+*Video* Attached--Time of issue - 00:19
+Har attached
+
+Thanks in advance!
+** Probable Answers: **
+1. cc: <@U03E3EYC7QD> <@WLXPT7Z1T>
+2. + <@U03QQFRBFUN>
+3. Hi Team, would appreciate your help!
+4. this looks to be a Forms bug. <@U03QQFRBFUN> to assign and investigate
+5. Thanks <@U03E3EYC7QD>!
+6. Hi <@U0276RKSD8D> Can you share the workflow with us?
+7. cc: <@U04RSTNB4PM>
+8. Unfortunately, customer is not willing to share the actual workflow.
+We only have form template and sample workflows
+9. Will check with the Sample workflow itself. Will reach out once I have some updates.
+10. Hi <@U0276RKSD8D> <@U04RSTNB4PM> I am able to replicate the issue on my local. We might have figured out what the issue is but will need to check on the root cause of this. This might be due to the failure of validation on the mandatory `Item Category` field. We have `Redraw On` option that's attached to the Item Edit Grid. The purpose of this option is: `Redraw this component if another component changes. This is useful if interpolating parts of the component like the label.` I think when we delete a row, it redraws the components and when we change any value, it empties the dropdown and no options can be seen. Since it's empty, it fails the validation and `Save` or `Cancel` doesn't work.
+
+If we remove the `Redraw On` option, the issue does gets resolved. As a workaround, depending on the business use case, please test and have a conversation with the customer if we can remove that option as shown in attached screenshot.
+
+Meanwhile, we will discuss this internally with the team and figure the root cause of this issue or if there's a better solution to this.
+11. Hi <@U04RSTNB4PM> <@U0276RKSD8D>, just to add to the previous conversation, I consulted with the team, the `Redraw On` option is not a good choice as it has some performance implications. Apart from that, since it's `Any Change` and specified at the grid level, changes in nearby areas might affect it's components which again is not a good choice. I would suggest using Logic and Events depending on the business implications as it's more performant and a stabler approach.
+
+That being said, the issue with the dropdown as mentioned above seems to be an issue with the  <http://Form.io|Form.io> team. Will check with them if it's a bug or an expected behavior.
+
+CC: <@U03QQFRBFUN>
+12. Thanks <@U03DA6HLSCA> for the update.
+Please keep us updated whether it's a bug or an expected behavior.
+13. Will do, however, please suggest the changes to the `Redraw On` option to the customer as well.
+14. That should be a viable workaround depending on the business use case till a final solution is found.
+'''
+'''
+# Question: 36
+Hi AC Team,
+
+Is there a way to measure *Action Start to Completion Time*?
+
+Mayo Leadership is trying to quantify value.
+
+They cannot use the Action Duration Seconds. The business will assign 100 documents to themselves, then work them.
+
+Thank you,
+John
+
+cc <@U01LM7KE013> <@U051KD0FHRU>
+** Probable Answers: **
+1. hey John,
+`Processing time - time taken by user between opening the task and completing the task.` 
+this feature is coming soon. maybe in a sprint from now, will keep you posted.
+2. <@U03E3EYC7QD> could you provide an update on this feature?
+3. the basic feature is implemented and processing time data is available. Ayushya is working on how this number can be consumed within Document Understanding. <@W0173AXGRP1> do you have an update?
+<@U03QQFRBFUN> lets connect this to the Processing time displayed on the Actions Overview page, and Actions dashboard in Insights.
+4. <@U03E3EYC7QD> We're not seeing processing time yet at Mayo.  We see Completion Duration.  Is this LIVE? <https://docs.uipath.com/insights/automation-cloud/latest/user-guide/action-center-data-model>
+5. not yet, here's the <https://uipath.atlassian.net/browse/IN-10415|bug >to track
+'''
+'''
+# Question: 37
+Hi Team! I have a customer that is creating a form task and wanted to know if there are limitation to embedding TIFFs.
+
+I did not see a limitation in the documents for this.
+** Probable Answers: **
+1. NM... I found it here <https://docs.uipath.com/activities/other/latest/workflow/embedding-objects-in-form-actions#sample-workflow>
+'''
+'''
+# Question: 38
+Hi AC Team,
+
+Mayo wants to GO LIVE with a DU project that uses Apps in Action Center.
+
+What's the schedule for UiPath Actions General Release?
+
+cc <@U051KD0FHRU> <@U01LM7KE013> <@U029S7UDCKY> <@U02M7MZ56BX>
+
+Thank you,
+John
+** Probable Answers: **
+1. working with Evan, Paras and Harit on this
+'''
+'''
+# Question: 39
+Hi Team,
+We have an issue with getting the sum of values from the form table (counting Amount values which are Currency fields). In the Preview, the values are displayed correctly, but in the Action Center, the value is not changing and in the Console, we see an error.
+The project is built in Studio 23.10.6.
+Can you please provide a working sample based on the customer's template for the total field (Currency)? Or if the issue is not from the Javascript code, can you fix that in Action Center?
+
+We posted earlier on <https://uipath-product.slack.com/archives/CN9ADUMC7/p1714091812556629> and we were redirected here as the issue may be in the Action Center itself.
+
+FYI: <@U057LMG32R4>
+** Probable Answers: **
+1. This is the logic for the Total field:
+
+If one particular checkbox (out_IsException) is true
+
+To provide the below value in the Total field:
+
+```let amountTotal = 0;
+    let lineCount = data.io_DataTable.length;
+    for (let i=0; i&lt;lineCount; i++) {
+        amountTotal = (+amountTotal) + (+data.io_DataTable[i].Amount);
+    }
+return amountTotal;```
+
+2. I think I figure it out.
+
+<@U057LMG32R4> ask the customer to not use *let* keywords as it is not recognized in Action Center.
+
+So ask to try with this code:
+
+```amountTotal = 0;
+lineCount = data.io_DataTable.length;
+    for (i=0; i<lineCount; i++) {
+        amountTotal = (+amountTotal) + (+data.io_DataTable[i].Amount);
+    }
+return amountTotal;```
+3. Example:
+4. thanks Marian :slightly_smiling_face:
+5. <@U03E3EYC7QD> can we add this limitation noted somewhere in the action center documentation? I think not only the *let* javascript reserved keyword is not recognized but others also.
+6. yes' we'll update the docs. <@U06KMV4RG1M> <@U05MV2GMCF8>
+7. <@U02FU623Y0M>, <@U03E3EYC7QD>, thank you. I will add a ticket and update the documentation.
+'''
+'''
+# Question: 40
+Hello team,
+Is there a way to have draggable rows in a Data/Edit Grid? Or to sort the grid based on a column? In desktop Forms, we have a component called <https://docs.uipath.com/activities/other/latest/workflow/using-the-data-map-component|DataTable> which enables this functionality, along with some others, but it is not available in the Action Center Form Builder. Seems like a weird thing since there seems to be 1:1 feature parity between the two builders EXCEPT the DataTable component.
+Also, using a .uiform file does not seem to work with the Create Form Task activity. Any guidance here?
+** Probable Answers: **
+1. After a bit of digging, I found out we are using the same form builder both for desktop Forms as well as for Action Center, which is <http://form.io|form.io>. However premium components like the DataTable are not enabled in Action Center. Why is this the case and can it be enabled on demand?
+2. bumping this thread. Can anyone help please?
+3. <@W0173AXGRP1> <@WLXPBCD0V> do you have context on the DataTable functionality?
+'''
+'''
+# Question: 41
+Hi team, i have a customer just purchased 5 x action centre with some AI units. customer feedback that they cannot see the action centre license on standalone orchestrator dashboard.
+Please kindly advice how to locate the 5 x action center license in orchestrator please?
+
+<@U02JWL7N8QJ> FYI
+** Probable Answers: **
+1. could you please check on <#CM9JDCSJD|help-licensing-technical>?
+cc: <@WLXNPLZR6>
+2. Thanks <@U03E3EYC7QD>.
+
+<@U02JWL7N8QJ> FYI
+'''
+'''
+# Question: 42
+Hi Team, one of my customer is facing an issue with the date picker. There seems to be a bug with the date picker where the date value is registering 1 day prior to the original date being selected. I found this <https://uipath.lightning.force.com/lightning/r/Case/5005b000028N9rDAAS/view|support case> which mentions its a bug. The customer wants to know if this bug is fixed or if they need to implement a workaround in their code
+** Probable Answers: **
+1. We have observed the same issue earlier as well and added to our backlog <https://uipath.atlassian.net/browse/ACTN-5392>
+Cc: <@U03E3EYC7QD> and <@U03QQFRBFUN> to prioritize
+2. Thanks for the update, Manas! Also do you know it there is any workaround in place? And what is the ETA to get this fixed?
+3. hey Ravin, to provide more context - this is not exactly a bug like it seems, but is intentionally by design accounting for scenarios where the designer and user are in two different timezones. we're tracking the date/time in UTC in place of the local timezone. we'll still be applying a fix, i'd let you know when we put a sprint to it.
+'''
+'''
+# Question: 43
+hey team - do we support <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/embedding-actions|embedding action tasks> in 3rd party applications? There seems to be an authentication requirement where I'm looking for guidance on how to configure. cc: <@U057BU0KUTS>
+** Probable Answers: **
+1. Cc: <@W0173AXGRP1>
+2. Hey team, do have the ability to do this? We're getting questions from other customers on embedding action center tasks in 3rd Party applications. Also, curious about the auth into 3rd parties.
+3. I assume embedding in an iframe would open up the auth page even within the 3rd party app. <@W0173AXGRP1> does that sound right?
+4. Yes. In non-uipath domains, you can embed action center in an iframe.
+5. Sample -> <https://jsbin.com/yiwohuvovo/1/edit?html,output> , just edit the code with the org and tenant
+6. Ok thank you! However when I open up your sample I get this?
+7. What happens when you click on Open in new Window Button? Also try Chrome. The feature should work.
+8. This is what happens in Chrome.
+9. I experience the same thing. I'm able to use the embed script into a UiPath App, and the action task opens perfectly. I used the same embed script into some html code and am not able to see the action task (authentication issue?).
+10. Change the URL to cloud. Alpha has some issue from Identity. The embed works fine on cloud.
+'''
+'''
+# Question: 44
+Hi Team,
+I am getting *Task Definition does not exist Error code: 2456* error after deploying the process into UAT tenant. I have also added the same action apps and task definitions in the UAT tenant. Please help.
+** Probable Answers: **
+1. <@U06BVD36ETA> <@U03QQFRBFUN> Please help me on this issue. This is blocking UAT.
+2. <@U02L25A27RD> / <@WNX660CV9> would you be able to help here?
+'''
+'''
+# Question: 45
+hi team
+Customer *P*remium *P*lus *Fiserv* wants to add multiple type of files in the same task in Action Center , validation step.
+Could you please let me know if it is possible to have multiple type of files (pdf and jpeg) in the same validation step ?
+
+Thank you!
+** Probable Answers: **
+1. Please reach out to <#CQ7R1EQL8|help-documentunderstanding>
+2. <https://uipath-product.slack.com/archives/CQ7R1EQL8/p1713869711822779>
+'''
+'''
+# Question: 46
+Hi team,
+What are the permissions required to see the Action Apps admin settings?
+*Action Center &gt; Tenant &gt; Admin Settings &gt; Action Apps*
+:thank-you:
+** Probable Answers: **
+1. Cc: <@U03MPBFHHEG>
+2. Hi <@WLLBMQPHR>, `ActionDesign.View` is required
+3. Hi <@U03MPBFHHEG>, I suppose this is an Orchestrator permission, correct?
+I cannot find that `ActionDesign` permission set in any of the role types (tenant or folder).
+What am I missing?
+4. <@WLLBMQPHR> Yes it is orchestrator permission and it is present in  `Allow to be Automation User` , `administrator`  and `Allow to be Folder Administrator` . You can use any of the above existing role.
+5. The screenshots above are the from the `Administrator` role, and I don't see anything resembling `ActionDesign`. Does it have a different display name?
+6. I have a customer with the same issue. They say they are logged in as administrator (will verify later in a remote session with them), but when they want to go to the Action Apps tab they get the message they don not have the permissions to view this page.
+7. Thanks <@U04LFJJE7FG>
+I thought it's a lack of proper permissions issue, but you just confirmed this is not an isolated case. I guess I'll have to ask my customer to open an incident ticket.
+8. Check if you are adding the Allow to be Automation User and automation user (in at least one folder) for your user in all the tenants -> Sign out and sign in again
+9. Thanks <@U02FU623Y0M> for your response
+But I have a couple of clarifications:
+1. The user having this problem is Administrator.
+2. This seems to be a Tenant level feature (*Action Center &gt; `Tenant` &gt; Admin Settings &gt; Action Apps*), why do they have to be "`automation user (in at least one folder)`"?
+:thank-you:
+10. Because the actions view permission
+
+Try to add and see if that helped
+11. When you are opening Actions, this endpoint is called
+12. <@WLLBMQPHR> and I met with the customer today and tried the suggestions above, but the issue persists. We added all the roles available to be added, except Robot, and the issue still occurs. We also added Folder Administrator and Automation User role onto Administrator on a Folder in the tenant, and it still occurred.
+
+Issue is happening on my pro trial tenant: <https://cloud.uipath.com/bpiret/DefaultTenant/>
+I added all permissions that could be possibly added at Tenant and Folder level and it still occurs. (see images)
+
+Created a brand new org <https://cloud.uipath.com/penterprises/DefaultTenant/> and it doesn't occur.  These are the roles default out-of-the-box: User Tenant Roles are Orchestrator Administrator, Solutions Administrator, and Allow to be Automation Developer. Folder Roles: Folder Administrator &amp; Automation Developer.
+13. <@U04LFJJE7FG> who is your customer who is seeing the same behavior?
+14. Hi Brian,
+It's actually a partner developing something for one of their customers.
+Partner is CGI in Germany, and the ID for the tenant they see the issue with is  : *9859-3023-3803-8981*
+15. Hi <@U027J0JL4CU>, has the customer renamed the organisation name?
+CC: <@W0173AXGRP1>
+16. If yes, there is workaround going on to support the organisation name change. Will update one the fix for that is merged.
+
+Please confirm, is this the same scenario that customer has changed the org name?
+17. <@U03MPBFHHEG> <@W0173AXGRP1> I've just asked the customer. I will let you know what I hear.
+In my pro trial tenant where this occurs, I have never renamed the org.
+Let me know if there is any additional info I can provide to help troubleshoot.
+Edit: I saw your DM and sent you an invite to <https://cloud.uipath.com/bpiret/>
+18. <@U03MPBFHHEG>, yes, Sherwin Williams had a name change at some point.
+While I don't have the original ticket for that name change, here are a couple of cases that make reference to that:
+• <https://uipath.lightning.force.com/lightning/r/Case/5005b00002AndhwAAB/view>
+• <https://uipath.lightning.force.com/lightning/r/Case/5005b00001o2tHFAAY/view>
+> In December 2022 we changed our Organization URL from "`sherwntpamqr`" to "`sherwinwilliams`". We are noticing now that the Ahub Url value in our Insights report is still using the old organization URL of "sherwntpamqr". This is a request to see how we can change the Insights Ahub URL to use the new url with "sherwinwilliams". See example report attached.
+19. <@U03MPBFHHEG> looks like the org is in the process of being downgraded to Community. I just reproduced the issue in the bpiret org this morning; not sure if downgrading the org will have any impact or not...
+20. I will check after login to your org. 
+Just for info: The changes are merged but it will take atleast 2 weeks to be deployed in the cloud regions.
+Cc: <@W0173AXGRP1> 
+21. Is there a process available to deploy the changes sooner? We'll need to be able to explain to the customer why it will take at least two weeks, and why we can't provide a known availability date.
+22. Cc: <@U03QQFRBFUN> 
+23. <@U027J0JL4CU> We were fast enough to identify the fix. The releases take 2 weeks of time. If we had fixed the issue by next week it would have taken 4 weeks of time. The Release Cycle is 2 every two weeks. This is what you should communicate to the Customer.
+24. Thanks for the details and the quick turnaround <@W0173AXGRP1>. It helps to know this context in these discussions.
+25. We are happy to help. Thanks for reaching us out and including all the details. It helped us debug faster and fix it :blush:
+'''
+'''
+# Question: 47
+hey team, what is the "Average Completion Time" on the screenshot representing and how is it measured? Also, can I access this information via Studio activities or API calls?
+Thank you!
+** Probable Answers: **
+1. <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/actions-overview#average-completion-time>
+&gt; Also, can I access this information via Studio activities or API calls?
+Studio Activities - No
+API calls - As this endpoint is marked as internal, it's not advised to use this endpoint directly.
+'''
+'''
+# Question: 48
+Hi team,
+
+A cloud client asked me :
+
+"How many concurrent jobs can be put into wait for user action status"
+
+I could not find that information in the docs.
+
+The main concern here is : Let's say there's a limit of 100 jobs that can be suspended while waiting for a user action. What happens when the 101th job will need to be suspended ?
+
+Thank you in advance :pray:
+** Probable Answers: **
+1. I don't think there is any such limit. But please check in <#CMBFRH7HA|help-orchestrator>
+2. Thank you <@WNX660CV9>, have a nice day
+'''
+'''
+# Question: 49
+Hi Team,
+
+How to resolve this permission issue? What permission should be provided?
+** Probable Answers: **
+1. Please help me on this.
+2. Hi <@U03QQFRBFUN> <@U04VBF17072> <@W015LMKSGEA> any inputs here?
+3. <@U033WHUBAKB>, do you have actions permissions to any of the folders in Orchestrator?
+4. Yes
+5. <@U033WHUBAKB> could you share a screenshot of OR folders' task permissions for this tenant?
+<@WNX660CV9> is there any other checks we do?
+6. <@U03MPBFHHEG> and I had a call with <@U033WHUBAKB> today morning. <@U03MPBFHHEG> is trying to replicate the issue in the local setup
+7. Hi <@U03E3EYC7QD>  `ActionDesign.View` permission is required to land on action defintion and action apps tab which is available in `Allow to be Automation User` , `Administrator`  and `Allow to be Folder Administrator.`  I can't see any custom role for this.
+CC: <@WNX660CV9>
+'''
+'''
+# Question: 50
+I have a client saying they were using automation express license to access action center before and it apprently stop to work. Was this possible ? <@U04Q7F6SSET>
+** Probable Answers: **
+1. Automation Express doesn't by itself grant access to Action Center. they would need Named User Licenses, <@WLXNPLZR6> to keep me honest
+2. We collected some more info. They have some older users using the Action Center normally even it is showing the message that it is missing licenses for it, and new users can't see anything there even after they gave them some Developer licenses (both have the same rights in folders). They don't have any attended or action center licenses in their contract.
+'''
+'''
+# Question: 51
+Hello Team,
+
+I need a help from Action Center expert.
+
+Customer is using standalone action center and the issue started after changing the ip address to private.
+Issue: - Customer is unable to access Action Center
+
+They had the issue of Orchestrator and Action Center are down.
+Issue is resolved for Orchestrator but unable for Action Center.
+
+Validated that all the required roles and permissions are provided to the users but still issue persist.
+Accepted Root URL’s. is already configuration for them.
+Index.html is in the default documents section.
+
+Is there anything else I need to validate?
+** Probable Answers: **
+1. cc: - <@U01T2FHTFHU> <@U02F0TWTES1>
+2. <@WLXPBCD0V> to help look into
+3. from HAR and the image file, it looks like AC is not able to access the backend service. To start debugging,could you please provide more information:
+1 . Try accessing <https://uipath-actioncenter-npd-mel-cww.azurewebsites.net/actioncenterservice> in the browser. Let us know the outcome.
+2. How did you resolve for the orchestrator issue? Are IP addresses of Orchestrator and AC still private?
+3. In UiPath.Orchestrator.dll.Config, I could not see an entry for Accepted Root Url. Could you please point me to the same
+Cc: <@W0173AXGRP1>
+4. 1. Will ask from customer to validate the URL.
+2. Restarting of the services has resolved Orchestrator issue. Yes, they are private
+3. Please see below screenshot for Accepted Root URL
+5. Please uninstall and reinstall Action Center with the hostnames for actioncenter/orchestrator/identity.
+6. I believe this is PaaS installation. Just re-run the AC installation script with the correct values. it should start working again.
+'''
+'''
+# Question: 52
+Hi Team,
+One of our customer was trying to UiPath Form Task and they had a form which has a datagrid inside a datagrid as mentioned in the below image but they were unable to retrieve the data from the same. Is this can be achieved using UiPath Forms or this is an expected behavior that we won't be able to access the data.
+Thank you in Advance!
+** Probable Answers: **
+1. <@U03E3EYC7QD> can you please help someone to look into this query?
+2. <@U06KMV4RG1M> could you work with <@W0173AXGRP1> to clarify this?
+3. <@U03E3EYC7QD> <@U0221Q1BUH4> Acknowledge it!
+4. <@U03E3EYC7QD> for Formio we have <@U03DA6HLSCA> as the Primary Owner. <@U0221Q1BUH4> please discuss this with <@U03DA6HLSCA>
+5. Hi <@U0221Q1BUH4> can you provide me with the sample workflow for this?
+6. Hi <@U0221Q1BUH4>, could you please provide me with the excel sheet that you have as an input?
+7. <@U03DA6HLSCA> please find the excel file attached here
+8. Thank you <@U0221Q1BUH4> will get back to you after some testing 
+9. <@U03DA6HLSCA> can you please let us know if we have any update on this?
+10. Hey <@U0221Q1BUH4> Will look into this, as I am the DRI have some high priority items on my plate. Will try to find sometime and check this.
+11. Sure <@U03DA6HLSCA>
+12. Hi <@U0221Q1BUH4> let's connect once tomorrow on this.
+13. Hi <@U03DA6HLSCA>, As discussed on Friday I tried implementing the workaround of accessing the dataGrid items inside another grid using a foreach suggested by you and tried retrieving the data and was able to do it. I have given the same suggestion to the customer. Will keep you posted if I have any queries.
+'''
+'''
+# Question: 53
+Hi team, did this morning's incident also impact US organizations? A customer reported they couldn't access the Action Center around the same time and sent the attached error.
+** Probable Answers: **
+1. There were 2 incidents in morning
+• <#C06UYKPUCFJ|>: It didn't had an impact in US
+• <#C06UA7M9H2N|>: Issue on the Orchestrator deployment, which was resolved quickly. This might had that impact, as we can see SLA drops in US as well. 
+Couldn't get time today, will update here after some more deep-dive
+2. Thanks, <@U05HZJKDLTW>
+
+CC: <@WLXPRG0BF>
+'''
+'''
+# Question: 54
+Hi team,
+
+A customer (Metsä Group) is using Action Center for validation purposes in DU workflows. They mentioned that they are facing some difficulties with the layout of the validation station where the users are not always able to fit everything on the screen. They have compiled some of their observations in a document which I'm sharing below.
+
+Their CoE also said that they are concerned about this affecting the user adoption of action center + DU, i.e. users deciding not to use tools that are provided by the CoE. I said that we always appreciate direct feedback from customers and I think Metsä would also appreciate an indication that their feedback has been registered on the product level.
+
+If possible, I think they would greatly appreciate a feedback session of some sort with the product team. Would this sort of session be possible?
+
+Thank you in advance!
+** Probable Answers: **
+1. <@WLRCUUUTT> FYI feedback on validation station UI.
+2. on the roadmap for 24.10
+3. <@U04TDDB6KK6> feel free to set up a call with them and include me, I’d like to capture more feedback if they want to share more.
+4. Hi <@WLRCUUUTT>, thank you very much. I'll synch with the customer to try find a suitable time and set this up.
+'''
+'''
+# Question: 55
+*High Priority for the customer*
+
+Hi Team! I have a ES customer that is looking to leverage a custom form/app for AC. Here is the use case:
+1. Retrieve Survey file
+2. Send file to Amazon Textract
+3. Retrieve extraction is json format
+4. Display in AC:
+    a. Content
+        i. Values
+        ii. Confidence
+        iii. Survey PDF File
+    b. Output:
+        i. Updated values if needing change
+        ii. Submit
+5. Complete rest of the process
+Would someone have a sample process that can display custom data and PDF and talk to the customer on this solution?
+
+Thanks
+Chris
+
+CC: <@U029S7UDCKY>
+** Probable Answers: **
+1. I am creating a POC around this however when embedding the PDF with Create Form Task I am getting an error. I am also seeing the same error within the sample link here <https://documentationexamplerepo.blob.core.windows.net/examples/Forms/Storage_Sample_PDF.zip>
+
+Found on doc <https://docs.uipath.com/activities/other/latest/workflow/embedding-objects-in-form-actions>
+
+Create Form Task: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Attention Required! | Cloudflare</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+        <h1 data-translate="block_headline">Sorry, you have been blocked</h1>
+        <h2 class="cf-subheadline"><span data-translate="unable_to_access">You are unable to access</span> <http://staging.uipath.com|staging.uipath.com></h2>
+      </div><!-- /.header -->
+
+      <div class="cf-section cf-highlight">
+        <div class="cf-wrapper">
+          <div class="cf-screenshot-container cf-screenshot-full">
+
+              <span class="cf-no-screenshot error"></span>
+
+          </div>
+        </div>
+      </div><!-- /.captcha-container -->
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="blocked_why_headline">Why have I been blocked?</h2>
+
+            <p data-translate="blocked_why_detail">This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="blocked_resolve_headline">What can I do to resolve this?</h2>
+
+            <p data-translate="blocked_resolve_detail">You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>
+          </div>
+        </div>
+      </div><!-- /.section -->
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">87248f87ed681d78</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">64.99.217.55</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="<https://www.cloudflare.com/5xx-error-landing>" id="brand_link" target="_blank">Cloudflare</a></span>
+
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+
+
+</script>
+
+</body>
+</html>
+2. <@U037AALP9CK> interesting use case. you could either use Apps or Forms for this.
+for the Forms error, <@W0173AXGRP1> this looks to be your expertise.
+3. Hi <@U03E3EYC7QD>! Thanks for having <@W0173AXGRP1> review this.
+
+Ayushya, can I setup an internal call?
+'''
+'''
+# Question: 56
+Hi Team!
+
+My client has the following question:
+On Action Center, the Reassign dropdown shows everybody with access to UiPath (in all tenants). Is there a way to limit the choices to those with Action Center global group specific to the AC catalog?
+
+What’s good: only users that have AC group for specific Action Catalog can access the tasks on Action Center.
+For example, I have G_UIPATH_AC_OIAOnboarding1427_RLSE which can access to 1472_Onboarding action catalog
+
+What’s bad: If I try to Reassign action to somebody else -> Reassign button shows all users (prod and nonprod). See screenshot below. So, if I mistakenly assign it to a user who does not have AC permission, the Action task will remain pending forever. Is there a way to limit the available choices on the Reassign dropdown so that it will only show users with the AC gg for the Action Catalog?
+
+Thank you for your help team!
+** Probable Answers: **
+1. <@W0173AXGRP1> do we not validate the list of users? is this something that will be fixed with People picker?
+2. Hi Team, do you have an estimated date for this enhancement?
+
+<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/introduction#known-limitations>
+
+Thank you!
+3. hey <@U05RK0X363A> not immediate, but we plan on revisiting RBAC later this year, which could improve this experience. ~Q4
+4. Ok, I understand, thank you!
+5. :tada: *New note created.*
+6. Hi <@U03E3EYC7QD>!
+
+Do you have any ticket or tracking number for this enhancement?
+We would like to have a place to validate the status of this request
+
+Thank you!
+'''
+'''
+# Question: 57
+Hello team,
+
+Is it possible to use cloud Action Center from a on-premise environment? Something like this:
+** Probable Answers: **
+1. cc: <@U02U4R6QSP2>
+2. <@WLXPBCD0V> could you review this?
+3. Hi <@U06FHBRSBAQ> - As I can see the scenario, Orchestrator is on prem and Action Center is on Cloud. This scenario is not supported. Action Center on Cloud by default connects with Orchestrator on Cloud. It can not be configured to connect to on prem Orchestrator.
+One question - When the customer has Action Center on Cloud, why don't they use Orchestrator on Cloud only?
+4. Also, Onpremises environment means Automation Suite? If yes, then Action Center is also available in Automation Suite. Why we are not using Action Center from Automation Suite?
+5. <@WLXPBCD0V> <@U03E3EYC7QD> for this customer, they are currently on a Standalone environment and want to embed Action Center into Salesforce.
+
+• Do they need to migrate to Automation Cloud to do this? (our understanding is currently this requires Cloud)
+• Are there any plans to make available the functionality to embed Action Center into a web application for on-prem customers in our next release (or future state)? Or is this technically not possible? 
+This use case embedding Action Center into Salesforce could be the business driver for this customer to upgrade to our Flex licensing and migrate to Cloud, so appreciate your guidance.
+
+<@U02U4R6QSP2> <@U06FHBRSBAQ> <@U05QD8LN28L>
+6. <@U03E3EYC7QD> Checking back on the above - are there any plans in our roadmap for Action Center to make it possible for on-prem customers (standalone environment) to embed Action Center into Salesforce? (web applications)
+7. Or is this not technically feasible?
+8. there seem to be multiple questions between two threads here, trying to summarize here
+1. support for standalone on-prem Orchestrator working with Action Center cloud
+    a. <@WLXPBCD0V> keep me honest - from the response above, this config is not fundamentally supported (regardless of embed options)
+2. support for embed with Cloud Action Center (POC)
+    a. <@WLXPBCD0V> i think you mentioned we can embed just the task without the left nav, etc. how can the customer enable that? 
+<@U05AMKHHP16> <@U02U4R6QSP2> we've been discussing to improve the Action Center embedding experience overall in the medium term roadmap, so we can pick up these enhancements even if we don't support them today.
+9. for 1, <@WLXPBCD0V>,
+• the customer is on msi, not automation suite. <@U02U4R6QSP2> <@U06FHBRSBAQ> - can one of you confirm this?
+• we already let them know that the onprem orchestrator - action center cloud config is not supported. The ask is to see if they can embed their onprem action center into salesforce instead of having to go action center in the cloud for embedding. 
+10. Yes, <@U05QD8LN28L>. They are on msi.
+11. <@U03E3EYC7QD> Kalyani summarized it best - would you please confirm if they can embed their on prem action center into salesforce, instead of having to go action center in the cloud for embedding (or if there are any plans to make this possible)?
+12. AC would be dependent on embed support from the on-prem team, which <@WLX9D421J> mentioned is not in the plans.
+
+&gt; from <@U02U4R6QSP2> they are doing POC in cloud. We set up a trial. The question is if there is a way to only iFrame the tasks portal. It shows the whole cloud instance currently in iFrame.
+this is something we can look into, and support
+13. Thanks <@U03E3EYC7QD>. For Action Center embedding experience improvements, are we able to share a timeframe with the customer?
+'''
+'''
+# Question: 58
+Hello team! I have a customer who is embedding their 23.4 action center into an iFrame. They are following these docs: <https://docs.uipath.com/action-center/standalone/2023.4/user-guide/embedding-actions> . However the URL in the docs looks like it is meant for cloud:
+```https://{yourDomain}/embed_/myorganization/DefaultTenant/actions_```
+however the customer's action center URL does not include organization or Default tenant: <https://ause1rpasche02.ds.mot.com:444/actions> . How should the embedding URL work in this case?
+cc: <@U06FHBRSBAQ>
+** Probable Answers: **
+1. Hi <@U02U4R6QSP2> unfortunately Standalone doesn't support embedding. This is a cloud/AS only feature.
+
+<@U036HL477AQ> <@U05MV2GMCF8> can we please remove embedding from Standalone section?
+
+cc <@U03QQFRBFUN> <@WLXPBCD0V> <@WLZK1TW4F>
+2. Thank you very much, <@W0173AXGRP1>. I will create a ticket for it.
+3. @Serban Diana created a Task DOC-12313 Remove embedding from Standalone section
+4. cc: <@U029J8QAMBR>
+5. Hey <@W0173AXGRP1>, it looks like someone informed a premium customer that this was possible (due to the incorrect documentation) and they are now frustrated since they upgraded to handle this. Is there any workaround for them outside of using AS or cloud to embed?
+6. This client intend to automate many processes using Action Center embedded on Salesforce. They have upgraded their environment based on our documentation, we are trying to find a workaround on this. Any ideas are more than welcome.
+
+cc: <@U05AMKHHP16>, <@WLZK13GF9>
+7. Hello <@W0173AXGRP1>, the customer completed the PoC, however they are asking if there is a way to only iFrame the tasks portal. Right now they can view the entire cloud portal. See screenshot:
+8. You have to check with <@WLX9D421J>. As per my last disucssion with him we don't support on-prem MSI for embed.
+9. <@WLX9D421J> - they are doing POC in cloud. We set up a trial. The question is if there is a way to only iFrame the tasks portal. It shows the whole cloud instance currently in iFrame.
+10. <@WLX9D421J> Could you please confirm if there are any plans for us to support embedding Action Center using an on-prem license to Salesforce (web based application)? Or in order for the functionality to work, do we need to have Action Center on-cloud?
+11. in on-prem embedding is currently unsupported and I don’t think theres any plan on the road map for it currently, so it would have to be on cloud
+12. for the question on only showing the tasks portal - thats a question for the action center team since they control what renders at that route
+'''
+'''
+# Question: 59
+Hi, team! I have a customer who can't see the AC tasks after submission. He is getting the error attached.
+Is this by design with the UiPath.DocumentUnderstanding.Activities package? Because he is not using UiPath.IntelligentOCR.Activities and the UiPath.DocumentUnderstanding.ML.Activities, although this is a Windows project.
+** Probable Answers: **
+1. do they have the right permissions for accessing Storage buckets in Orchestrator?
+2. is there any error in the console? Can you please send a HAR file?
+3. in UiPath.DocumentUnderstanding.Activities, the files pertaining to a task are automatically deleted when the task is resumed.
+'''
+'''
+# Question: 60
+Hi Team,
+
+A customer is asking for clarification on the Action Center license allocation. According to the documentation available, users require specific licenses to submit tasks from the Action Center. However, as per the customer, they have observed a situation where a business user, who is part of the 'everyone' group, doesn't have any allocated licenses, yet is able to submit tasks without any issue. The only notification the user receives is that they are not allocated the proper license, but it doesn't restrict any of the user's actions in the portal (labeling, submission, assigning to users, etc.). The customer need to understand if this is the expected behavior, as they plan to provision the same set of privileges to production users as well. Appreciate your inputs.
+** Probable Answers: **
+1. hey Luis, we are not restricting Action Center functionality based on user checks at this point, other than a warning banner that they would need to purchase User licenses. this is the behavior on Prod as well
+'''
+'''
+# Question: 61
+HI Team, a customer reached out and said users in the cloud are able to access Action Center even without any license allocated to them. I confirmed the users had Cloud Access but no UiPath licenses (They were automation hub users). Based on licensing the customer (and myself) assumed automation hub users would not have access to Action Center unless they had an Action Center user license. Can someone please advise?
+** Probable Answers: **
+1. <@U028HN8M2JG> could you please clarify with <#CM9JDCSJD|help-licensing-technical>?
+cc: <@WLXNPLZR6>
+'''
+'''
+# Question: 62
+Hello Team.
+
+I'm creating a POC for one of my clients, using embedded Action Center. I created an html to run it locally, but Action Center don't expect to be accessed locally. My workaround on that was to use <https://codepen.io/> to run it, but I wonder if we have proper way or a internal tool to do it.
+** Probable Answers: **
+1. For POC you can use <http://codepen.io|codepen.io> that should be good.
+
+You may refer to, <https://uipath-product.slack.com/archives/C02NXKYGSQK/p1667464627006019?thread_ts=1664991020.338789&amp;cid=C02NXKYGSQK>
+
+cc <@U03QQFRBFUN> <@WLXPBCD0V>
+'''
+'''
+# Question: 63
+Hello Team, One of my customer recently converted from classic to modern folders, Orchestrator version 2021.10.1 and got changed from using non production to testing licenses.
+Their query is as follows
+In my testing I have come across a scenario where we run an orchestration process that pulls files in from an input folder for the Document Understanding process, then does a Start Job and Get Reference activity. This is failing with an error of Could not find a machine with Unattended or NonProduction runtimes in the current folder Error code: 2818
+
+Kindly help us if possible. If this is the wrong group. Please redirect us
+** Probable Answers: **
+1. Found 22.4 or later is resolved for the above bug
+<https://uipath-product.slack.com/archives/CN71E6AG1/p1666745708729059>
+
+CC: <@W0192KGNNMR>
+2. Unfortunately customer is not willing to upgrade right now, Is there any other way we could accommodate the issue.
+3. ^^ <@U03E3EYC7QD> <@U03QQFRBFUN>
+
+Can we check if upgrading to 21.10.X patch in orchestrator can fix this?
+4. hey Sharath, could you please check with <#CMBFRH7HA|help-orchestrator>?
+'''
+'''
+# Question: 64
+Hi Team,
+
+Is it possible to autosave boxes when selected without clicking the save button, sometimes document SMEs switch to other tasks without saving and data is lost. Also is it possible to hide the unassigned and completed tabs from the business users since they aren't relevant? Perhaps through RBAC?
+** Probable Answers: **
+1. 1. if you make any changes on a `Document Validation` or `Document Classification` task and you want to move to another task you'll get a confirmation popup that asks you to confirm that the data will be lost.
+2. maybe <@U03E3EYC7QD> can answer the RBAC question
+2. we have customers with users that self-assign tasks, so its still relevant in some customer's workflows
+3. Hi <@U03E3EYC7QD>, I think we can solve for both cases by implementing a role that restricts the view to Pending. For these customers who do self assignment it can remain the same, for customers where they get assigned we can use this role.
+4. <@U02EVUK474L> could you please file a JIRA feature request/Product Board Insights? we're looking into role-based visibility throughout AC, and we'll consider this as well.
+FYI <@U056RGPEJMB>
+'''
+'''
+# Question: 65
+Hi Team, Do we have a demo that shows action center can be embedded in 3rd party application? One of my customer is curious and wants to see a quick demo from us. Any help will be highly appreciated.
+cc - <@U020GPLUABU> <@U06FHBRSBAQ> <@U05AMKHHP16>
+** Probable Answers: **
+1. <https://uipath.enterprise.slack.com/archives/CN71E6AG1/p1675335103225409?thread_ts=1669713237.671039&amp;cid=CN71E6AG1|https://uipath.enterprise.slack.com/archives/CN71E6AG1/p1675335103225409?thread_ts=1669713237.671039&amp;cid=CN71E6AG1>
+2. The video link is not working.
+3. They must have just taken it down. it was working a few weeks ago.
+4. <@U03E3EYC7QD> do you know if a video exists for the ask above? Another customer (Boomi) asked about this
+5. i created something myself, but there is a JS Bin example at the bottom of this page
+<https://uipath.atlassian.net/wiki/spaces/BPA/pages/87032793948/Loading+Action+Center+within+Iframe+-+Design>
+6. thanks, I don't know how long this link will last but here is one that I created just now: <https://www.loom.com/share/662b7273a5854d84a7f4f2c18db7d857>
+'''
+'''
+# Question: 66
+Hello Team,
+
+I'd like to confirm if the feature for Action Center retention policies is not yet available. If this is the case, do you have an estimated time of arrival (ETA) for its implementation?
+
+<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/retention-policies>
+** Probable Answers: **
+1. CC: <@U05HZJKDLTW> <@U02Q9DN4286> 
+2. Heyy Leo, Changes have been deployed, but yes it’s not yet live. Let me get back by Friday with our release dates. 
+3. Thank you <@U05HZJKDLTW> and <@U03MPBFHHEG>
+4. Hey <@U02FNEC035E> We couldn't arrive at a date after today's internal discussion. We are running through some data analysis. Will keep you posted here.  Thanks! cc: <@U03E3EYC7QD>
+'''
+'''
+# Question: 67
+Hi Team,
+One of our customer is trying to customize the edit grid using the CSS and they are able to see the changes in the Preview tab where as when the form is created in the action center the CSS added in the template is not getting applied. Also attaching the images for your reference.
+The main reason behind applying the CSS, they are having columns more than 6 and due to which the column 7 and 8 are coming to next line and they are trying to customize the same.
+We also tried multiple ways but it didn't help. Can you please guide us is there any way we can make this work as we followed the same mentioned in documentation but it didn't help.
+CC: <@WLZJP9J15>
+Thanks in Advance.
+** Probable Answers: **
+1. <@U06KMV4RG1M> to help
+2. <@U06KMV4RG1M> can you please help us here as customer was looking for a solution.
+CC: <@U01E8U5AKED>
+3. <@U06KMV4RG1M> Can we please have some inputs here as customers timelines are getting pushed due to this. Appreciate any help here. Thanks!
+4. <@U0221Q1BUH4> <@U01E8U5AKED> Acknowledge it! Will look into and get back.   Adding <@W0173AXGRP1>
+5. <@U0221Q1BUH4> I have tried articulation the issue. please find it below:
+6. PFA workflow as discussed
+7. <@W0173AXGRP1> <@U0221Q1BUH4> The customer is using the create form task. They have used edit grid to display set a data and it is appearing the display window and all columns are appearng the same row (8 columns in this case). but in the action center once the form task is created only 6 columns are appearing in the first and remaining two are apprearing below the first and second column (of the second row).
+The customer wants to have all the columns in the first row. for that they tried cutomising the edit grid CSS using the documentation (<https://docs.uipath.com/activities/other/latest/workflow/customizing-edit-grid-templates>). When they added the CSS we can seethe changes in the preview window of the designer. but when task is created in action center the same not getting applied.
+8. do we have an in-house repro for the issue?
+9. <@U03E3EYC7QD> you can use this workflow to repro the issue at our end
+10. <https://uipath-product.slack.com/archives/CN71E6AG1/p1711360632128529?thread_ts=1710844359.341969&amp;cid=CN71E6AG1>
+11. <@U06KMV4RG1M> do we have an update on the issue? Customer was looking for a solution.
+12. I tried running the workflow and I can reproduce this locally. I'll get in touch with FORMIO team revert back.
+13. @Ayushya Jaiswal created a Task ACTN-5894 Formio EditGrid beyond 6+ columns, is jumping to next row
+14. Hi <@U0221Q1BUH4>  Please try the following styles as a workaround. Please note there are still some width issues for which we have reached out to <http://Form.io|Form.io> team to resolved but the columns shouldn’t overflow.
+```.my-grid {
+    overflow: auto;
+}
+
+.my-grid .row {
+  flex-wrap: nowrap !important;
+  width: max-content;
+}
+
+.my-grid .col-sm-2 {
+    width: 135px;
+}```
+You might need to tweak the widths to get a pixel perfect alignment. However, for a final fix, we have reached out to the <http://Form.io|Form.io> team for them to resolve this issue.
+
+CC: <@W0173AXGRP1> <@U02L25A27RD> <@U03QQFRBFUN>
+15. Thanks <@U03DA6HLSCA> will try and suggest the same to customer
+16. Hi <@U0221Q1BUH4> if the above solution doesn't work properly, please try this:
+```.my-grid .editgrid-listgroup {
+    overflow: auto;
+}
+.my-grid ul&gt;li.list-group-item {
+  width: fit-content;
+}
+.my-grid .row {
+    flex-wrap: nowrap;
+    width: 2000px;
+}
+.my-grid .row div {
+    flex-wrap: nowrap;
+    max-width: 10%;
+}
+.my-grid .row div:last-child {
+    max-width: fit-content;
+}```
+17. <@U03DA6HLSCA> the above solution worked fine I have suggested the same to customer if that didn't worked will suggest the latest CSS Style provided by you for the same.
+18. Sure do let me know.
+'''
+'''
+# Question: 68
+Hey team,
+
+I am working with a customer that wants to do the following:
+• extract data out of a document
+• use the extracted data to identify a user in their systems
+• if they have any issues uniquely identifying the user, ask for human intervention
+• once the user identified, fetch some user properties from their systems display them side-by-side with the extracted data, allowing a human to do the correct matching
+And all the above should be done in one single action/task :smile:
+
+Now, this is not possible using Document Validation Actions or Form Tasks, but can we do it using Apps Tasks?
+Can any of you provide some guidance please?
+
+Thank you!
+** Probable Answers: **
+1. cc. <@U02HS144CMB>, <@U051KD0FHRU>
+2. Note (Mayo implementation) - <@U01TA9WMT0E>, <@WLRCUUUTT> - another example of needing real-time validations (and lookups) in DU Action Center ... is this the right channel to understand if we can do this with the new 'Apps' integration with DU?
+3. (I will let Ioana reply, as she will be driving this :slightly_smiling_face: )
+4. + <@U029S7UDCKY>
+5. cc: <@U05RTM5BHRA>
+6. :tada: *New note created.*
+7. thank you, we are working on defining exactly this :slightly_smiling_face:
+8. <@WLRCUUUTT> - I think the current solution is to perform the lookups on extracted data before Action Center ... if there are issues with the lookup, the user can make changes to the field values in AC, but will have to submit the changes to 're-do' the lookups, which, if they also fail, would have to loop back to AC for more field changes and/or reject the document to deal with outside of UiPath.
+
+Do you know if we could solve this lookup-loop using Apps?  If not, is my characterization above accurate, or is there something else we might consider?
+
+We're looking for a near term solution as we're in something of a pilot implementation.
+9. the description is accurate Todd - but currently we don't have a Validation Station flavor that can go into Apps and communicate with the Apps process execution scenario... this is exactly what <@U05RTM5BHRA> and I are working to define
+10. Thanks … last thought … I don’t the Apps functionality very well. Could we correct the extraction in AC, and then have the lookup done in Apps? 
+11. cc: <@U01LM7KE013>, <@U052STFA5KQ>
+12. <@U051KD0FHRU> let’s find some time tomorrow potentially to chat ?
+13. I'm travelling the next several days ... but might have some time tomorrow morning?  Lemme see if we can set a time when I get to Denver.
+'''
+'''
+# Question: 69
+Hi Team, One of our customers has asked about the impact of changing the tenant name when using Document Understanding, AI Center, and Action Center.
+Could you please let us know if this will impact the use of the Action Center? I am thinking about the possible impact on Action Center URLs for example, is that a problem?
+** Probable Answers: **
+1. From the Action Center perspective, I do not see any impact other than URL changes.
+<@W0173AXGRP1>, do you see any other impact?
+2. Thank you for letting us know!
+3. Nope, everything should work as we expect.
+4. I understand that there is no impact other than the change of this URL. Thank you for confirming this!
+Thanks to you, I will be able to answer that customer.
+5. You're welcome. Let me know, if there is anything else you come across :slightly_smiling_face:
+'''
+'''
+# Question: 70
+Hello team. can anyone tell me if there is a timeline to implement the "rework" action functionality for action center tasks?
+** Probable Answers: **
+1. Cc: <@U03E3EYC7QD>
+2. &gt; hey Rich, we expect this to ship after 24.10. we had a few process orchestration deliverables we picked up as higher in priority. could you add some context, use-cases where this might be important to your customers? thanks!
+'''
+'''
+# Question: 71
+Hi Team,
+Do we enforce requirement of a license to access Action Center. My customer First Horizon On-Prem 2023.04 is asking as user without license is able to access Action Center.
+Thanks
+cc: <@U02T8CZK03G>
+** Probable Answers: **
+1. AFAIK we don't enforce licenses in OnPrem.
+
+cc: <@U03E3EYC7QD>
+2. thats right.
+3. However we do contractually, correct?
+4. Contractually they need to have licenses. We are moving them to flex and Automation Cloud.
+'''
+'''
+# Question: 72
+Hello team! I have a customer looking to embed action center into an iFrame and I found <https://docs.uipath.com/action-center/standalone/2023.4/user-guide/embedding-actions|this documentation.> They are on-prem 22.10. The docs only go back to 23.4, which is not compatible with 22.10 orchestrator. Do they need their action center to be 23.4 in order for this to work? Thanks!
+cc: <@WLZK13GF9>
+** Probable Answers: **
+1. Yes <@U02U4R6QSP2>, the embedding actions feature is available from AC 23.4 onwards. The customer needs to upgrade to 23.4
+2. <@WNX660CV9> FYI <https://uipath-customer-ops.slack.com/archives/CN71E6AG1/p1712081950548999>
+'''
+'''
+# Question: 73
+Hi Team,
+First Horizon is reporting that the Action Center screen is flicker on Click. They are rendering a PDF. Please refer to video attached. They are On-Prem 2023.04. MSI install
+** Probable Answers: **
+1. From this video, it looks like the `Refresh On Change`  is checked for the HTML element that renders the PDF. Could you please clear the `Refresh On Change`  checkbox and see if flickering still happens?
+2. Thanks <@WNX660CV9>.I am having customer validate.
+3. <@WNX660CV9> if they change refresh on change to false then the pdf does not load. Please see screen shot attached. I have a sample automation. Any thoughts
+4. &gt;  if they change refresh on change to false then the pdf does not load.
+Can you please share the console log and HAR in this case?
+The same automation worked for me without any issues.
+5. Hi <@WNX660CV9> I tested this on prem in 2023.04.03 as customer is on this version. It does work well on Cloud.
+6. <@WNX660CV9> Please see HAR files with and without the refresh on change attached. I do an error in console but not sure if that is the issue. Please advise
+7. <@U02HAR9CSLT>, indeed I could see this issue in 23.4.3. I checked with the later version 23.10.0 and it is working fine.
+Let me verify it with the team before suggesting fix/upgrade for this issue
+8. Thanks <@WNX660CV9>   I have requested customer to create a support ticket too for tracking 
+'''
+'''
+# Question: 74
+Is it possible to forward to a user who has not signed into UiPath Cloud yet but is included in an AD group and should have access as soon as they sign into UiPath Cloud? Partner is saying such users are not showing up in the list to forward to.
+** Probable Answers: **
+1. If not currently possible, what do you recommend as a workaround? and is there anything planned to enable this?
+2. Basically, if an AD group already been granted access, is it possible to allow searching for its users within Action Center so a task can be forwarded to a user that has NOT yet signed into our cloud?
+3. <@WLXPJ0E69>, the user needs to sign in first.
+This has been mentioned as the known limitations <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/introduction#known-limitations|here>
+4. Thanks <@WNX660CV9>.
+Please help me understand this statement:
+&gt; Alternatively, you can continue to assign tasks to the user's UiPath account. But then organization administrators should delay the task of discontinuing UiPath account use until the issue is resolved.
+This seems to suggest it's still possible to assign tasks to users who have not yet signed in using their AD account, contrary to the the paragraph above it. And I don't know what '_delay the task of discontinuing UiPath account use'_ means.
+5. Cc: <@U036HL477AQ>
+6. We'll look into clearing the confusion this week and I'll follow-up here when done. Thank you!
+7. cc: <@U05MV2GMCF8>
+8. Hi, <@WLXPJ0E69>! The team decided that the last sentence ("_Alternatively,..._") isn't relevant for that limitation, therefore we removed it. So ignore that part, until the docs get updated with the next cloud and on-prem releases.
+'''
+'''
+# Question: 75
+Hi Team,
+Raised a bug ticket <https://uipath.atlassian.net/browse/ACTN-5705>
+Could you please take a look on this issue? Thanks
+** Probable Answers: **
+1. <@WLXPBCD0V> Can anyone please take a look into this one? It is a blocker for us into adopting the Action-Apps
+2. <@U03QQFRBFUN> please check this.
+3. <@U02L25A27RD> aren't you working on the above issue?
+4. <@U03QQFRBFUN> This item is planned for s138 along with Other Persistence tasks.
+'''
+'''
+# Question: 76
+Hello, team! I am working on an RPA implementation project, and I need to display in an Action Center Form Task 2 PDFs that should be scrolled in sync. May you, please, help me with an idea/small example of custom code? I have tried may approaches, but I was not able to find any sustainable solution yet. Thank you!!
+** Probable Answers: **
+1. <@W015LMKSGEA> <@U04VBF17072> can this be supported in Apps? this could also help with the DU &lt;&gt; Apps integration cc: <@WLXPT7Z1T>
+
+<@W0173AXGRP1> mentioned forms v2 doesn't have this capability today. can this not be supported in Forms v1 as well? what would it take to implement this?
+cc: <@WLXPBCD0V> <@U03QQFRBFUN>
+2. PDFs can be displayed using a Document Viewer control. Both of them can be displayed.
+
+But I am not sure scrolling in sync could or could not be achieved. Need to check with Document Viewer or HTML control owners.
+
+cc: <@U03H7L36FA4> <@U02HTTVE2AY>
+3. Document Viewer control can show both pdfs but the scrolling would be independent.
+<@U03H7L36FA4> can this be achieved using custom html control?
+4. <@WLXP73YKA> You can add custom code using the HTML control. However, because it's a sandboxed iframe, it will block plugins for security reasons and may not allow embeddings. If you find a custom JavaScript library that can render a PDF and is compatible with CodePen, it should also work in the HTML control. I don't have an example to show right now.
+
+If you know the size of the pdf, you can try the below,
+1. Add two Document Viewer controls to a page, arranged side by side. Set the height of these controls to the maximum height of the PDF. 
+2. In another page, add a page container control with a fixed height(for example, 200px) and load the previous page into it. Now the page container should allow scrolling. As you scroll in the container, both PDFs should move as well.
+<@U02HTTVE2AY> I hope this approach will work if they know the height.
+5. Thank you, everyone, for your help!
+'''
+'''
+# Question: 77
+Hi Team, Can someone tell me what is needed to have the "preferences" tab show in Action Center admin settings?
+This is what the customer sees and i am unable to reproduce as i can see it in my testing
+** Probable Answers: **
+1. This is what i see
+2. This allows customer to enable the insights connection so they can view Action Center dashboard on the insights platform.
+
+I know the experience is not ideal as we had to create an entire tab just for this toggle.
+3. There is a bug which was hiding the "Preferences" tab for customers. We have fixed it and the deployment is ongoing.
+
+The above customer should have it resolved by 13th March
+
+cc: <@U03MPBFHHEG>
+'''
+'''
+# Question: 78
+Hi team,
+My understanding is that Action Center tasks continue to persist even after completion, and there is no built-in functionality to automatically delete them after a certain period. How should we go about maintaining these tasks?
+** Probable Answers: **
+1. Hello <@U03T573S5GQ>, we are currently working on the task retention feature where the admin can define the retention policy on a task catalog. All associated tasks will either be archived or deleted based on the configuration.
+2. cc: <@U03E3EYC7QD>
+3. I understand that maintenance features will be available in the future. Thank you for your response.
+'''
+'''
+# Question: 79
+Good day.
+
+Are license management now enforced on Automation cloud?
+
+For a while there was only a warning banner, did we implement any enforcement of license management on Action Center usage?
+
+CC <@U02GR0KG6P2>
+** Probable Answers: **
+1. We have not implemented any enforcement for AC licenses. It's still a warning banner.
+Cc: <@U03E3EYC7QD>
+2. Do we have any timelines for when this will be enforced?
+3. hey Tertius, we don't have a plan around this as yet.
+4. Do we have ant legal T&amp;C around this being open and "trust" based.
+'''
+'''
+# Question: 80
+I have a customer interested in product's perspective on roadmap for Action Center. We are embedding AC in another one of their applications for them to process Broker Statements at each of their retail locations. It would be 13,000 Action Center users. Is there someone that can support me with this ask?
+** Probable Answers: **
+1. cc: <@U03E3EYC7QD>
+2. <@U020GPLUABU> interesting use case. i would like to know more, maybe we can catch up on a call?
+• is there a central workflow? what's the use case where tasks initiated from workflows will land in retail locations for processing?
+• do you know if they have specific Action Center feature asks?
+3. <@U03E3EYC7QD> I'll send you a calendar invite for early next week so you and I can discuss the details of what's going on with them.
+'''
+'''
+# Question: 81
+Hi Team, I have a customer who asked if they can use Action Center without Document Understanding.  They have their own digitization/OCR/extraction model but do want to leverage Action Center/Apps for human in the loop review of model outputs.  Please let me know if you have any answers and/or refer me to any contacts or resources.  Thanks in advance for your time and attention.
+** Probable Answers: **
+1. Yes they can.
+
+Moreover, they can even use Validation Station witout using ocr/classification/extraction from UiPath. They will only need to provide the right data to the create validation task activities (and the "right" data is documented and can be worked with using the UiPath.DocumentProcessing.Contracts package, which defines how a DOM, an ExtractionResult, a ClassificationResult etc should look like.
+2. It does require some knowledge though to build those objects, but they can do it.
+3. they can do it a bit easier if they just build their own ocr engine / classifier / extractor, as each of these works with a more limited input/output mapping necessary
+4. this way they can use DU as a "framework" but fill it in with their own stuff.
+5. thank you <@WLRCUUUTT> for your response.  I tried to look up more info on UiPath.DocumentProcessing.Contracts but I found only limited info here: <https://docs.uipath.com/activities/other/latest/document-understanding/about-the-document-processing-contracts-pack>.  Can you refer me to any links and/or doc portal about this package so I can share back with my customer?
+6. Try to have a look at this: <https://github.com/UiPath/Document-Processing-Code-Samples> . You should be able to download the code and it should build in Visual Studio. You will have a sample classifier, a sample extractor and a sample OCR engine implemented there.  Make sure to update the UiPath.DocumentProcessing.Contracts package to the latest version.
+'''
+'''
+# Question: 82
+Hi Team, Good day!
+We have a customer Axis Finance on Automation suite Air-gapped Multi-node setup v23.4.4 having issues while accessing Action Center through Org Admin in their Production environment. On the browser we see the attached error. I shall attached the pod logs and Support Bundle soon.
+This is a fresh install but stops the customer carry out business operations . Requesting your insights in understanding the cause for this issue, thanks!
+`"Error": {`
+       `"Code": 400002,`
+       `"Message": "Header ServiceUrl is Invalid",`
+       `"Source": "ActionCenterService",`
+       `"InnerException": null`
+   `}`
+** Probable Answers: **
+1. can you please send the HAR file? Or the ServiceURL header value from the request headers section.
+<@U03MPBFHHEG>, <@W0173AXGRP1>
+2. On it. Thank you :slightly_smiling_face:
+'''
+'''
+# Question: 83
+Hello team, has any updates been made for action center user licensing on prem? My customer is 22.10 on prem orchestrator and 20.10 on-prem Action Center (to soon be upgraded) and was wondering about tracking who licenses are allocated to. I told them I do not believe we have a current way to track this on-prem. They said they just added 10 users and realized they already had other action center users active and everyone was able to access. They only are licensed for 10 AC users. Thank you!
+cc: <@U06FHBRSBAQ>
+** Probable Answers: **
+1. right now, we don't track license for the on-prem installation.
+Cc: <@U03E3EYC7QD>
+'''
+'''
+# Question: 84
+My customer has had this case 02320649 open for awhile. Action Center issue. Any known bug here or plan to fix it?
+
+Client video of the issue <https://uipath.file.force.com/sfc/servlet.shepherd/version/download/0685b00000vnniDAAQ?asInline=true>
+** Probable Answers: **
+1. Hello <@WLRCUUUTT> <@WLTRAPZPB>, we are still awaiting response to question from <@U030V0M5LP5>. Could you please let us know if this is a bug or ways to stop the document to scroll back up as seen in the video? TIA
+2. any chance you could download the video for me? I do not have access to see the ticket details :disappointed:
+3. Thank you Niki. I need to have the ExtractionResults object as in this task. You can either obtain it by looking at the action data and grabbing the storage bucket information for the extraction results entry and then downloading it from the storage bucket, or you can run a workflow that generates these, and before you create the actioncenter task do an Assign: strExtractionResults := autoExtractionResults.Serialize(); strDOM := dom.Serialize(); strTaxonomy := taxonomy.Serialize() . Ideally I'd like to get extraction results, dom, text, original file and taxonomy.
+4. Why do they not have highlighting on the values?
+5. I was wondering the same, but unfortunately I don't have more info than the link above (which is the video alone).
+6. Hopefully <@U030V0M5LP5> or <@U02EED3A76G> can help with the rest.
+7. Thanks <@WLRCUUUTT>, <@WLTRAPZPB>. Here is the latest update based on Support Engineer's call with Customer.
+I have also reached out to Support Engineer requesting to provide ExtractionResults object.
+8. Thanks Faiyaz - Uber is meeting internally next Tuesday to discuss adding enterprise success to get a TAM. Let’s hold off on giving them answers until then. Thanks!
+'''
+'''
+# Question: 85
+Hi Action center team:
+I keep getting the same feedback from customers revolving around tasks. They have a batch process and want an *EASY* way to set tasks aside, and take them later.  A lot of the customers expect the functionality to be alike queues, as they don't want to wait (their unattended robot needs to keep working on other tasks or processes)
+
+&gt; 2. How should we properly work with the Action Center? Currently, we have a situation where we have a process that retrieves information from a queue with documents of low confidence level. Unfortunately, this results in the task appearing in the action center, but the process is in suspended status and waits for the action of a user who will validate the fields. Is there a possibility to add tasks to the action center without the suspended status? We would like to add tasks continuously without blocking the running process and work on several tasks.
+
+** Probable Answers: **
+1. i assume the process reads multiple items from the queue, and when the first one is sent to action center the whole thing is suspended.
+
+if you would have a similar approach as the du process, the outcome would be the one they expect:
+
+• process must be modified to process one single queue item, not a bulk
+• the queue will have a queue trigger set to start the process each time a new item is added to the queue.
+• when a new item is added to the queue, the trigger will start a job of the process for this queue item. when the action center part is reached, the job is suspended, but this doesn't affect the other queue items/jobs
+
+2. Hi Nicolae,
+I think that makes sense, however RPA developers are used to building batch.
+
+Not only does it complicate the build step  (Doesnt fit into RE framework)
+but it also makes it very hard to orchestrate if we say 1:1.
+
+For this customer this means 10000 process runs a month - which not only clutters orchestrator, but also ensures lowers robot output. Having theoreticalyl 10000 suspended processes really messed up every kind of insights.
+
+If we instead could have tasks like queues, customers could choose what they want to do with them, and how they want to process them - One by one or many at a time
+3. ok, i get it now. reframework and long running activities is by default not a match done in heaven. i don't know if we have a solution for this problem in the current product :confused:
+4. Agreed!
+and good observation with the two not fully matching. Thanks a lot for listening to the feedback!
+
+With my knowledge in the market i would say 90% of processes that the customer wants to do Human in the loop for, would be processes that originate from a batch job of some sorts.
+ALL customers have many RPA processes that fails at times. Whether its because of missing data or an obscure business rule they haven't programmed in the bot. So having a task for these is magic to them!
+
+in regards to long running - We simply don't see many customers doing a "one-of" process requiring HITL. As there is by nature a much smaller volume.
+5. Do we have some kind of example framework that can mass process?
+
+cc <@WLRCUUUTT>
+6. I guess you could:
+• batch process items UP TO TASK CREATION
+    ◦ put action object in a queue
+• have a process pick up queue and do wait for validation (many suspended processes indeed, but robot would be freed once a suspension happens and would be woken up once the task is completed) - would need to be built so that it can pick up queue items that have not been started while many will be already in processing - if possible
+    ◦ put validated results in a queue
+• have a process pick up the validated results and do whatever it needs to with them. 
+This would work okay for "simple" use cases in which one file = one extraction = one validation = one something afterwards, and would NOT work if a the entire process actually needs to work with N files or if a file contains N documents that need to be processed in tandem. In this case, it would be
+• pick up item (n files or 1 file with n documents inside)
+• process all of them for digitization, classification and automatic data extraction 
+• create n human tasks
+• parallel for each wait for n human tasks (a bit of variable management magic needed here)
+• do post processing on all n results.
+7. Hi Ioana, Yes i agree that it is possible, but customers are really not eager to have suspended processes, and "self starting" processes, as this ruins their scheduling.
+
+Had a good discussion with <@WNX660CV9>
+
+You proposed the idea of using Get Form Tasks and setting up a filter on completed tasks and with a set deadline. This will solve many of the issues customers have with pausing and waiting for tasks to be completed along with batch processing of transactions.
+As of now the approach is quite programmatic, and it would drastically help if customers could easier set up the filters, without writing almost API like requests. So having a little more user friendly Get Form Tasks with a selector for status or date etc, will definitely help a lot.
+
+Additionally it would be greatly beneficial if we can somehow mark the processed tasks, with either a task status/progress (similar to queues, where transactions have both status and progress, and progress can be customized). This would allow customers to easier understand what tasks have already been handled by a robot after task completion by humans.
+
+
+:page_with_curl: *DU RELEVANT INFO*
+Lastly, there is a requirement for having the same functionality for *Documents and therefore validation tasks.* Being able to extract these when needed and processing them "every monday" or similar will  make the flows a lot easier for customers to understand and start with.  The DU team can probably find some inspiration from the existing "get form tasks", however with the added functionality of setting filters easier, and potentially flagging them as "robot processed".
+
+
+cc <@U03E3EYC7QD> <@WLRCUUUTT>
+'''
+'''
+# Question: 86
+Hi team,
+I have a similar question to two threads above.
+
+I created a Form in Studio and wanted to display this form in Action Center. Isn't that possible at the moment? Do I have to re-create the Form within the Form Designer of the "Create Task Form Activity"?
+Will this be possible in future?
+
+Thanks a lot for your input,
+Robert
+** Probable Answers: **
+1. <@WLZK3F4KZ>, could you please provide the thread that you are referring to?
+2. <https://uipath-customer-ops.slack.com/archives/CN71E6AG1/p1708667278413789>
+
+I have the feeling that this is somehow similar
+3. Could you please elaborate more on the issue?  You should be able to create both  - a form task from the Create Form Task activity and an app task from the Create App Task activity.
+4. I created a .uiform entity in Studio. Can I use this form to display in action center? I did not find any activity for that
+5. Create Form Task needs to create the form design separately. The form designer in the Create Form Task supports exporting/importing form template in the json format, but not the uiform files.
+Ccing <@U02L25A27RD> in case he is aware of any way to import .uiform in the Create Form Task activity's Form Designer
+6. Is it planned that the Create Form Task activity will also support the .uiform files in future? I do not see a reason why we have two different form designers within Studio
+7. I am not aware if we support .uiform export/import. <@WLXPBCD0V> Do we have any plan for supporting '.uiform' in future?
+'''
+'''
+# Question: 87
+Hi, one other question to App actions: When customer is on Apps Units (pays per each app call) - do they need to pay app units *plus* have an action center license?
+** Probable Answers: **
+1. For customers with Action Center license, they get unlimited Apps usage without consuming App units.
+2. Thanks <@U03E3EYC7QD>!
+'''
+'''
+# Question: 88
+Hi team, congrats on the Apps + Action Center release, very exciting feature! I would like to ask if this means we are heading toward Apps being the default for Action Center actions long-term or if we still plan to support and develop <http://Forms.io|Forms.io> in parallel? And if we plan on developing both, why would a customer pick one over the other :slightly_smiling_face:
+** Probable Answers: **
+1. cc: <@U03E3EYC7QD>
+2. we will support <http://Forms.io|Forms.io>, but to make improvements to forms have been challenging so far given its an external integration. we'll fix blockers, but improvements will be deprioritized
+for the value-adds from Apps
+• Trigger webservice calls for look ups (dynamic fetch)
+• Performance improvements (faster load time)
+• Faster build-time experience
+• Task look and feel improvements, and customer-centric customization
+'''
+'''
+# Question: 89
+Hi team,
+We have a customer who is looking to build an action center in an on-premises environment.
+When comparing, there are differences with Orchestrator, but do these need to be installed?
+Action Center is assumed to be installed on the same server as Orchestrator.
+
+*[Role]*
+• ASP
+• <http://ASP.NET|ASP.NET> 3.5
+• CGI
+• Server-Side Includes
+*[UiPath Guides]*
+Action Center
+<https://docs.uipath.com/action-center/standalone/2022.4/user-guide/prerequisites-for-installation>
+Orchestrator (Installed roles and features with PowerShell)
+<https://docs.uipath.com/orchestrator/standalone/2022.4/installation-guide/orchestrator-prerequisites-for-installation>
+
+Also, if I no longer use Action Center, can I delete these roles?
+** Probable Answers: **
+1. <@WMLCGBZJM> any feature or role, that is ONLY required for AC can be deleted/removed in case AC is not being used on that server.
+Please let me know if you have any further queries
+2. <@WNX660CV9> Thank you for your comment.
+The official guide states.
+```Minimum required version: 8. this is part of the Web Server (IIS) role and is automatically enabled by the provided InstallRolesAndFeatures.ps1script, which can be found in here. which can be found in here.```
+<https://docs.uipath.com/action-center/standalone/2022.4/user-guide/prerequisites-for-installation#action-center-server>
+
+Using this script does not fulfil the features in the Windows Features Requirements screenshot on the same page, do I need to manually enable the roles that are missing below?
+
+• ASP
+• <http://ASP.NET|ASP.NET> 3.5
+• CGI
+• Server-Side Includes
+In my test environment, it seems to be working without this feature at the moment, but is it necessary depending on the Form used?
+'''
+'''
+# Question: 90
+:large_blue_circle: Hello! Our client Paddy Power Betfair is using Action Center in UiPath Cloud.
+The scenario they are having:
+1. user opens the "pending" queue
+2. user clicks item and assigns
+3. user completes the form and submits
+After the item is submitted, they want the next pending item to be displayed, in order to be later assigned. Is there any option to achieve this?
+Thanks!
+** Probable Answers: **
+1. Hello <@WLXPATSLD>, by "pending" queue, you mean the "Unassigned" tab, right?
+"Pending" tab is where a user sees the tasks assigned to him/her. After completing the task, the user stay in the "Pending" tab itself to act upon the next task.
+Right now, AC does not move from "Pending" tab to "Unassigned" tab after completing the task
+2. <@WNX660CV9>, you are right. i was referring to the "unassigned" tab. thanks for the answer!
+'''
+'''
+# Question: 91
+I've skimmed re "Action Center and Consumption based license" but only found older threads or not clear ones to me.
+*Q: Is there a plan like with Apps that customer can buy "Units" for AC rather than a named license?* 
+Getting more and more requests for that and customer say "doesn't make sense to buy a license for 440$ when having potentially 500 users accessing AC, but maybe only 2 x a month"
+** Probable Answers: **
+1. FYI <@WLXPBCD0V>, <@U03E3EYC7QD>
+2. hey Ludwig, thanks for the feedback. we are evaluating this, but do not have a timeline for a change as yet.
+'''
+'''
+# Question: 92
+Hi All, are there any recommendations based on the below issue?
+We are facing an issue with validations in Action center forms. When task is created, submit button is not enabled, due to some invalid or missing data in some fields/tables, which is expected, but the form is not showing the error messages so the user can go ahead and correct/fill the invalid fields, they need to go one by one and validate the data manually and once corrected, the submit button is enabled. It would be great that error messages come from the beginning so the user can go ahead and correct only what is required. Another issue that we are facing is that sometimes when we load a value in the dropdown, is taking it as invalid, even though the value is part of the options in the dropdown, so the user needs to re-select that same value so the form will take it as valid.
+** Probable Answers: **
+1. Thank you, could you please log a jira issue with the artefacte from one such task, to better identify what we could improve (all files in the storage bucket for that task please).
+2. Under the Document Understanding (ACTV) project please
+'''
+'''
+# Question: 93
+Hi Team, 
+
+We have customer who is using DU and Action Center has performed the following steps
+• Encrypt the platform at Org level with a CMK
+• Create a storage bucket in Orchestrator with "Orchestrator" as storage provider  
+• Encrypt the action catalogue in Action Center 
+They want to know along with the task data whether the document will also be encrypted with CMK in this scenario.  Cc: <@WLRCSKMED>
+** Probable Answers: **
+1. &gt;  They want to know along with the task data whether the document will also be encrypted with CMK in this scenario
+As per <https://docs.uipath.com/automation-cloud/automation-cloud/latest/admin-guide/encryption#encryption-per-service|this> doc, the storage is encrypted.
+<@WLXNV2TLY> <@U01TA9WMT0E> , can you please confirm on document encryption using CMK
+2. I can't answer this. We store the documents in Orchestrator's Storage Buckets, so it's a question for them. You can try <#CMBFRH7HA|help-orchestrator>
+'''
+'''
+# Question: 94
+Hello , can someone help in merging below PR's <https://github.com/UiPath/business-apps-tasks/pull/1701/files> and <https://github.com/UiPath/business-apps-tasks/pull/1706> very small PR
+** Probable Answers: **
+1. <@WLXPBCD0V> - Can you help in getting these merged . cc- <@U03J7R2RBPU>
+2. <@WLXPBCD0V> we need this for tomorrow's demo, can this be merged on priority?
+3. <@W0173AXGRP1> <@WNX660CV9>
+4. I have approved and enabled auto merge
+5. <@W0173AXGRP1> <@WLXPBCD0V> can one of you please approve
+6. I have approved. one of the PR is merged, other should merge as soon as the checks pass
+7. the WIP check is stuck from past 3 days. How can I rerun that check?
+8. I have force merged it
+'''
+'''
+# Question: 95
+Hi ,
+Is it possible to define sla per document validation or classification task? and based on the sla to have a timer on the screen?
+** Probable Answers: **
+1. Cc: <@U03E3EYC7QD>
+2. hi Snir, we're implementing a task-level SLA. we don't plan to have a 'timer', but on the Action Center UI, you can see remaining time and sort tasks based on remaining SLA
+3. Nice, sounds exactly what my customer needs. 
+When is it expected to be available?
+4. private preview ~24.6
+5. Hi <@U03E3EYC7QD>, will this functionality be available on OnPrem 24.10 as well?
+6. yes, that is the plan
+'''
+'''
+# Question: 96
+Hi Team,
+
+I have a customer who is trying to manage and see the licenses for a Standalone AC instance.
+
+My understanding is that w do not have a way to track the consumption from the Orchestrator UI.
+
+Is this right or where do we expect to see this?
+
+Thanks.
+** Probable Answers: **
+1. &gt;  My understanding is that w do not have a way to track the consumption from the Orchestrator UI.
+Yes, you are right.
+2. HI <@WNX660CV9> Thanks!
+
+
+The customer would like to know how do they manage these licenses and what is the user experience for their action center users if there are no more licenses available and they attempt to access.
+
+What do we tell the customers on this usually?
+3. Hi <@WNX660CV9> just wanted to follow-up on the above request.
+4. <@U03E3EYC7QD> 
+5. we do not block the access. they should see a warning banner, but functionality is not impacted.
+6. <@WNX660CV9>
+
+Can you help the customer with a response to this question please?
+
+"How do I manage these licenses and what is the user experience for our action center users if there are no more licenses available and they attempt to access?"
+7. <@U02FU623Y0M>, the above question is in the context of a standalone AC instance, right?
+8. Yes, in the context of standalone AC instance.
+9. <@U02FU623Y0M>, in standalone AC (MSI) also, we don't enforce the licensing. So customers will not be blocked.
+&gt;  How do I manage these licenses
+<#CM9JDCSJD|help-licensing-technical> should be able to answer this in a better way
+'''
+'''
+# Question: 97
+If i'm embedding Action Center in another application within a browser, is there a way to drop the data that was just validated in action center directly to browser storage without pushing it to the robot?
+
+i have a critical use case a customer is working on now and we're architecting a solution where action center is embedded in another one of their applications.
+** Probable Answers: **
+1. &gt; is there a way to drop the data that was just validated in action center directly to browser storage without pushing it to the robot?
+Could you please elaborate on this?
+For embedding AC, please follow this doc - <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/embedding-actions>
+2. hey Manas. They don't want to have the data returned to the server/robot once completing the validation in Action Center via the iframe. They would like to use JavaScript to access the local browser storage to "consume" the data that was validated in Action Center. They are fine hitting the Submit button if that allows data to be captured for retraining.
+
+I know this is unusual, but I wasn't sure if we can hijack the click event on Submit to accomplish the task of storing the data locally once validated.
+3. <@W0173AXGRP1>, can you please let us know if the above is possible?
+4. We don't have a way for capturing it.
+'''
+'''
+# Question: 98
+Hi Team, Is there a tool to assign like over 100 action items to a group of users? Client is worried that they would have over 500 action items a day, and that a person choosing these and distributing them would be a bunch of work. In my mind I kind of envision a two panel attended bot that has the tasks (With a select all button) and the users on the right (with multi selection) that would just round robin the tasks to the selected users.
+** Probable Answers: **
+1. hi <@WLZJY3JR5>, assignment need not be manual. have you explored using Assign task from the workflow itself? you can build some logic around a group of users to be assigned round robin.
+we do have on the roadmap a group assign/auto-assign feature planned for later this year.
+'''
+'''
+# Question: 99
+Hi team! We have a request from a customer - we are creating a custom form displaying a document on the right and some extracted values on the left (mimicking Document Understanding's validation). Is it possible, somehow, to make it so that clicking a a value on the left automatically scrolls the document and highlights the text inside it (to show where the extracted value came from)? Thank you! :bowing:
+** Probable Answers: **
+1. hmm, if this is a possibility, it would be cool to add something like that to HART <@U02L2TZMCNQ>
+2. we recently integrated with Apps for designing custom tasks for Action Center. <@WLRD3CG01> do you think Apps can support this interaction?
+3. Not out of the box, but I bet you could do this with an anchor tag and the iframe control. 
+
+Another possible way would be with the new HTML control and a custom script that watches an app variable. 
+4. <@WLZT9F6S2> who is this customer?
+<@WLX99TEJ0> is HART a customer?
+5. Hart is a template we created to handle generic actions in action center.
+6. Hi <@WLRCUUUTT>! Allianz is the customer. I already "hacked" a solution and created the combined CM + DU validation. It's not perfect, but works as intended. We can discuss together with the CM team and see if it is a good functionality to develop further.
+
+PS: since DU extraction is required, the solution is based on the DU Process.
+7. Can you please show me in private?
+8. I heard how you did it, but I'd also like to see
+9. Sure. Let's connect next week and I can show you :slightly_smiling_face:
+'''
+'''
+# Question: 100
+Hi team, Let me ask you a question.
+When I open the admin settings in Automation Cloud "Actions", My Workspace is displayed, but in the on-premises Action Center 22.10 version, My Workspace is not displayed. Has this been fixed in some version?
+** Probable Answers: **
+1. Indeed, My Workspace does not appear in 22.10.
+However, I tried with 23.10.0 and I could see My workspace appearing there, provided personal workspace is enabled in the UI profile
+2. Update. My workspace doesn't appear but appeared with in manually search (22.10) . Therefore, the problem was cleared.
+'''
+'''
+# Question: 101
+Hello team, may I know if there is any official documentation about how to update Action Center SSL certificate and URL? Or is it safe to just reinstall it with the new values? Please let me know if it is recommended to do the changes manually or just reinstall.
+
+Today I worked with a customer that needed to perform those 2 changes, we did all the steps below but in the end since nothing worked. We ended up reinstalling and that did the trick.
+
+• Confirm URL is updated in SQL database:
+    ◦ [identity].[ClientRedirectUris]
+    ◦ [identity].[ClientPostLogoutRedirectUris]
+• Ensure that the UiPath.Orchestrator.dll.config (located in the Orchestrator installation folder) contains the following key: &lt;add key="AcceptedRootUrls" value="http://{your-localhost_name}:{port_number},https://{Action_Center_host}:{port_number}" /&gt;
+• Confirm that the OPTIONS verb is allowed in IIS for the Orchestrator website.
+• Modify accordingly the registry: HKLM -&gt; Software -&gt; WOW6432Node -&gt; UiPath -&gt; UiPath Action Center -&gt; Action_Center_URL
+• Check the config files and configure the new URL: <https://docs.uipath.com/action-center/automation-suite/2022.10/user-guide/troubleshooting#upgrade-successful%2C-cannot-access-action-center|Action Center - Troubleshooting (><http://uipath.com|uipath.com><https://docs.uipath.com/action-center/automation-suite/2022.10/user-guide/troubleshooting#upgrade-successful%2C-cannot-access-action-center|)>
+    ◦ For Actions facet, go to Action Center Folder -&gt; Actions -&gt; environments folder -&gt; env.json
+    ◦ For Processes facet, go to Action Center Folder -&gt; Processes -&gt; environments folder -&gt; env.json
+• Confirmed that the certificate is correctly configured in IIS &gt; Sites &gt; UiPath Action Center &gt; Bindings.
+• Did IISRESET. Issue persisted. You can browse to Action Center, but it tells that you don’t have permissions even when using the admin account.
+** Probable Answers: **
+1. &gt;  Please let me know if it is recommended to do the changes manually or just reinstall.
+Reinstall is recommended in such cases. Please note that reinstall does not result in any data loss
+cc: <@W0173AXGRP1>
+'''
+'''
+# Question: 102
+Hi, in a hybrid setup whereby client is using
+1) DU/AI Center on Automation Cloud and
+2) Studio/Unattended robot/Orchestrator on-premise
+
+My understanding is that Action Center must be on-premise in this case.  Is this correct or is it possible to configure such that Action Center is on cloud?
+** Probable Answers: **
+1. &gt; My understanding is that Action Center must be on-premise in this case.
+Yes, AC should be in the same environment as the OR. AC does not support hybrid setup.
+'''
+'''
+# Question: 103
+Hi ,
+In case of onpremise action center (23.10 version)
+As an admin, is it possible to see actions assigned to someone else?
+** Probable Answers: **
+1. <@WNX660CV9> Do we have an API to do this?
+2. An admin can see other user's inbox by clicking on `view inbox` icon from the `overview` page.
+3. <@WNX660CV9> this would have a limitation where the admin wouldn't be able to see data for the  folders where he doesn't have access.
+4. <@WLX9H61N0> You may use the overview dashboard for your requirement, with a catch that you should always ensure that this admin user has access to all the folders.
+5. Thank you guys
+'''
+'''
+# Question: 104
+Is it possible to hide the Process icon in On-premises ACenter? I would like to confirm if it can be hidden when not in use. Thank you.
+** Probable Answers: **
+1. Hi <@U03T573S5GQ> , it is not possible to hide Processes or Actions from the nav panel. The nav panel cannot be edited.
+
+Vc <@U03E3EYC7QD> <@WLXPBCD0V>
+2. <@W0173AXGRP1>
+Thank you for your response. I understand that it's not possible to hide this nav panel. thank you.
+'''
+'''
+# Question: 105
+Hi team,  (cc : <@U03T573S5GQ> <@WLZK2JS6T>)
+I would like to know about the SQL tables which are used in Action Center on-prem.
+• Is a new table created by installing Action Center?
+• Which tables will have an increase in records while using Action Center (And do we need to monitor the number of records)?
+** Probable Answers: **
+1. 1. Task Tables are created as part of the orchestrator installation. AC apis and data reside inside OR. These tables' name starts with Task*
+2. `Tasks` is the table which creates a new row/record when a new task is created. Please let me know if you need information about any specific table.
+> And do we need to monitor the number of records
+if data growth is the concern, tasks table need not to be monitored separately. Can you please give some more context ?
+
+The below image from the dev setup, couple of tables like TaskSolutionDeployments might not be present in on-prem scenarios
+2. <@WNX660CV9> Thank you for the comment. These are very helpful for me.
+An official uipath guide to the maintenance of the Orchestrator SQL DB exists.
+Customers regularly maintain some tables according to this guide.
+<https://docs.uipath.com/orchestrator/standalone/2022.4/installation-guide/maintenance-considerations>
+We have been asked to check whether there are any additional tables that need to be taken into account when implementing Action Center.
+If there is no explosive increase, such as in logs, we would like to guide you that no maintenance considerations are required.
+'''
+'''
+# Question: 106
+Hi Experts, one of my customer is requesting for a 12 month retention policy of tasks in Action Centre on automation cloud? Can we achieve this? I understand the default policy is 30 days.
+
+CC: <@U03BG7BDS5P>
+** Probable Answers: **
+1. <@U050NMW5MHU>, the team is currently working on the task retention feature where the admin can define the retention policy on a task catalog and all associated tasks will either be archived or deleted based on the configuration.
+AFAIK, tasks does not have any default policy right now.
+cc: <@U05HZJKDLTW>, <@U02Q9DN4286>
+2. Thank you <@WNX660CV9> - Do you when what the limits would be? like the maximum period of retention?
+3. Retention period is gonna be between 1-180 days
+4. Thanks <@U05HZJKDLTW>. <@U03BG7BDS5P> - It will be a maximum of 180 days then.
+5. What is your requirement? <@U050NMW5MHU>.  cc: <@U03E3EYC7QD>
+6. the new retention policy will only apply on completed tasks. the pending tasks are never archived/deleted
+7. Hi <@U05GAQZRBUZ> - Customer is requesting for 12 month retention period.
+8. <@U050NMW5MHU> we do not have a retention policy now which means tasks are never archived/deleted (the retention policy is yet to be implemented). can you please clarify with the customer on the ask -
+• is it that tasks SHOULD be deleted after 12 months?
+• should this apply to pending and completed tasks?
+which customer is this?
+9. <@U03BG7BDS5P> - I need your help here.
+'''
+'''
+# Question: 107
+Hello!  My client is migrating from On-Premise to Automation Cloud but this can take some time and they want to use our Automation Cloud Action Center from On-Premise Robots connected to a stand alone MSI On-Premise Orchestrator, is this feasible?
+
+From my research, they would have to connect their ON-Premise robots to an Automation Cloud Orchestrator before they can use Automation Cloud Action Center.
+** Probable Answers: **
+1. Yes, robots needs to be connected to Automation Cloud Orchestrator.
+'''
+'''
+# Question: 108
+Hi team, a Health insurance customer is concerned about using Cloud Action center for their data that is processed via Cloud DU and sent to Action center for validation. What they want to know is
+1. What is it that's transferred to Action center? Is it the actual document or is it just an image and/or DOM that's rendered in AC which is an output from DU?
+2. While the Action center item is in pending state, meaning not actioned yet for a long period, lets say hours or days, is the image(assuming it's an image and not the actual document)  physically stored somewhere while waiting and where exactly is that? Is it in Orchestrator or back in a designated storage bucket? (customer is using their own AWS S3 bucket while using our Automation cloud Action center)
+I hope that all makes sense
+Thanks
+** Probable Answers: **
+1. 1. AC stores only the basic metadata about the DU task like title, priority, status etc. It does not store either image or actual document.
+2. When a DU task is rendered in AC, the document is requested on the fly and rendered in AC.  <@WLXNV2TLY> can comment whether the document is stored in OR bucket or user managed storage bucket.
+2. yes, all the data (documents, dom, extraction result, etc) are stored in Orchestrator in Storage Buckets. And this data is requested on the fly, when the action is opened, from the Orchestrator and only displayed in Action Center. Action Center doesn't store anything on their side, except for some metadata related to that task, as Manas confirmed above.
+3. Thanks to you both for the answers <@WNX660CV9>, <@WLXNV2TLY>. It is very valuable to know this level of detail because customers are becoming much more aware and demanding in knowing the actual stages in data manipulation and the locations where these happen because of privacy and security and they can plan and make decisions accordingly. :100::thankyou3:
+'''
+'''
+# Question: 109
+I got the action center embed in another application to work, but I want to know if we can hide the navigation on the left-hand panel. It allows users to navigate to the cloud portal and they get a nasty message when they do. What about the top navigation?
+** Probable Answers: **
+1. Cc: <@W0173AXGRP1>
+2. Hi <@U020GPLUABU> please clearly elaborate which left panel are we discussing about ?
+3. I was able to find something in confluence to hide the automation cloud navigation. But that wasn't in our public docs. Is there a way to get public documentation updated so all of the URL options are available?
+4. What is that solution?
+5. See the Architecture section on this page
+<https://uipath.atlassian.net/wiki/spaces/BPA/pages/87032793948/Loading+Action+Center+within+Iframe+-+Design|https://uipath.atlassian.net/wiki/spaces/BPA/pages/87032793948/Loading+Action+Center+within+Iframe+-+Design>
+6. <@U020GPLUABU>, we have a public doc for embedding actions <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/embedding-actions>.
+Please let us know if anything missing/ambiguous. We will update it accordingly.
+7. Apologies. I see now it's just in a different format. Thank you.
+'''
+'''
+# Question: 110
+Hi Team,
+From the following thread, I understand that ACenter and OC must be together either on-premises or in the cloud.
+<https://uipath-japan.slack.com/archives/CN71E6AG1/p1698200918597269?thread_ts=1698084786.065179&amp;cid=CN71E6AG1>
+Is this understanding correct? I ask this because, while checking the installation procedure for an on-premises environment, I noticed that an example of a parameter to specify in the installer included a cloud URL, so I want to confirm just to be sure. There is no immediate impact, so there's no need for a prompt modification of the installer.
+** Probable Answers: **
+1. Yes, AC and OR both must be either on-prem or cloud. AC does not support hybrid approach right now.
+'''
+'''
+# Question: 111
+Do we have a pre-baked demo for action center embedded in another application? I have to demo it to a customer on Wednesday.
+** Probable Answers: **
+1. i don't think we support embedding an action center task in a third party application. <@WLXPBCD0V> to keep me honest.
+2. I'm using this documentation, but it's a little light. I got a working demo up, but curious if we have anything "prettier"
+<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/embedding-actions>
+3. oh , i wasn't aware of this. i'll let Tushar suggest options here
+'''
+'''
+# Question: 112
+Hi team,
+Richemont is planning to start using Action Center after their migration to Automation Cloud.
+As found from this previous discussion <https://uipath-customer-ops.slack.com/archives/CN71E6AG1/p1664284543825769|here>, it seems that there's no way to allocate Action Center licenses to users.
+So Richemont would like to know how is calculated the consumption of Action Center licenses.
+Is it something simple like the number of distinct users having completed actions during each month?
+Is it the number of users having access to Action Center service (based on the Catalogs they have access through Modern folders)?
+Thanks!
+** Probable Answers: **
+1. cc: <@WLXPBCD0V>
+2. <@U03E3EYC7QD> &amp; <@WLXPBCD0V>: do you know who I can ask about this question from my client Richemont?
+'''
+'''
+# Question: 113
+Hi all,
+Mei-Avivim account is trying to allocate Action Center named-user licenses.
+On the Admin-License tab, the Action Center users are not reflected, while all other licenses are OK.
+Attaching screenshots from the admin view and license doc.
+Thanks in advance :pray::skin-tone-3:
+** Probable Answers: **
+1. cc: <@WLXPBCD0V>
+'''
+'''
+# Question: 114
+Hi team,
+I have a client trying to highlight some text when an event occurs on their form. They didn't achieve to have it working. They tried different ways:
+• Using "Property" action type 
+• Using "Merge component schema" action type
+```schema={
+ "attributes": {
+ "style": "background-color: blue; color: white;"
+ }
+ }```
+• Using Javascript custom action type
+Do we have some samples of these types of customizations somewhere? Is there someone who could help us on this?
+Thanks!
+** Probable Answers: **
+1. <@W0173AXGRP1> - please take a look at it
+2. The CSS Customisations doesn't seem to work as expected. This is a bug with our Third Party Dependency and we will have to raise it with them.
+
+cc <@WLXPBCD0V> <@U03E3EYC7QD>
+3. Thanks <@W0173AXGRP1>! By the way, what is the right way to do CSS customizations for forms in Action Center? (I mean when the bug will be fixed)
+4. The simplest way would be via Property. You would be able to add CSS classes if you want to use the pre defined css.
+5. Do we have some documentation about the available CSS classes and how to add them?
+Did you create a bug on our Jira to follow the issue? My client, Oerlikon, would like to be kept informed when it will be fixed.
+Thanks!
+6. <https://uipath.atlassian.net/browse/ACTN-5399>
+&gt; This is a bug with our Third Party Dependency
+Once we get a response from them, we will revert back.
+7. Please refer to this sample file CSS.xaml, when you set the value as 1 in the first field the css is getting applied.
+To do this I edited the JSON schema of the field where the css needs to be applied.
+and changed the "value" field's value from `className` to `customClass`
+```"property": {
+            "label": "CSS Class",
+            "value": "customClass",
+            "type": "string"
+          },```
+8. Thanks <@W0173AXGRP1>! I'm going to try it!
+'''
+'''
+# Question: 115
+posting here as well
+** Probable Answers: **
+1. we'll have a public preview of Apps &lt;&gt; Action Center integration - targeting Jan 31.
+'''
+'''
+# Question: 116
+Hi Team, it is urgent if someone could help of this thread related to Action Center. Thanks <@WLXP0HA00> <@U03E3EYC7QD>
+<https://uipath-customer-ops.slack.com/archives/CQ7R1EQL8/p1706107339388569>
+** Probable Answers: **
+1. this looks to be an error within Validation Station/DU. can  you tag <@WLRCUUUTT> in the <#CQ7R1EQL8|help-documentunderstanding> post?
+2. resolved.  will add docs around this.
+'''
+'''
+# Question: 117
+Hey Folks,
+
+I just ran through a bunch of Long-Running Process jobs and i noticed the "Suspended" number on the home-page remains even after i've processed the items (No jobs in a suspended state) . Is this expected (I only processed them 15 minutes ago so I wonder if its related to this)?
+** Probable Answers: **
+1. Please reach out to <#CMBFRH7HA|help-orchestrator>
+'''
+'''
+# Question: 118
+Hi team.
+Quick check. Our "Process Launcher" <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/about-processes> is part of the "Action Center" according to this documentation. This means, according to this documentation <https://docs.uipath.com/overview/other/latest/overview/product-availability> "Process Laucher" is available for on-prem, standalone deployment. Correct?
+** Probable Answers: **
+1. Yes, Processes are available for on-prem, standalone deployment as well.
+Cc: <@U03E3EYC7QD>
+'''
+'''
+# Question: 119
+Hello Team, I am working with a  PP customer and they are running into an issue where they are unable to open completed actions after few hours. However, if they try to open the action as soon as they complete it, they have no issues with it. From the screenshots below: they were able to open the action #2169427 10mins post completion, but when they try to open the same action after few hours - it throws an errors "Unable to open complete actions".
+** Probable Answers: **
+1. It depends on the `Remove Data from Storage` flag. Please reach out to <#CQ7R1EQL8|help-documentunderstanding>
+2. Thanks, <@WNX660CV9>.
+'''
+'''
+# Question: 120
+Hi All,
+Is there a way to predefine the deletion of completed tasks (every 30 days for example)?
+** Probable Answers: **
+1. Hello <@U01CF2Q7G73>, the team is currently working on the task retention feature. With this feature, the user should be able to define the retention policy to the action catalog the task is associated with. The completed tasks could be either archived or deleted based on the policy.
+<@U05HZJKDLTW> <@U02Q9DN4286> <@WLXPBCD0V>
+2. So it will be available on the 24.10 stand alone?
+'''
+'''
+# Question: 121
+Hi team, is there any documentation for Action Center PaaS upgrade ? There are steps for <https://docs.uipath.com/action-center/standalone/2023.10/user-guide/action-center-azure-paas-installation|PaaS installation> but I couldn't find anything for upgrade. Customer is planning to upgrade from v21.10 ->v23.10 and requesting for the steps they need to follow, so it can be added to their deployment pipeline. Thank you!   FYI <@U023HLLDERJ>
+** Probable Answers: **
+1. cc: <@U036HL477AQ> <@U03NSLBDA5Q>
+2. @Antonia Petrescu created an Improvement DOC-10388 Create procedure for upgrading PaaS Action Center
+3. Hi <@U036HL477AQ>  when can we expect the upgrade documentation ? Customer is planning to upgrade in next 2 weeks and requesting the steps they need to perform. Thank you!
+4. I haven’t managed to get the necessary information from the team. Will follow-up with them, but I cannot give an estimate yet.
+5. Are there any steps you could share, even if it's not official published documentation ? It's becoming difficult to explain to the customer why we haven't defined an upgrade path. Any insights or information you could share would be helpful.
+6. I have no information on this, unfortunately.
+7. <@U01M4NXS4F8> In case you are still looking for the steps, the install steps and the upgrade steps for Action Center remains the same. All the script does is replace the action center web.zip deployed in the Azure root directory.
+<https://docs.uipath.com/action-center/standalone/2023.10/user-guide/action-center-azure-paas-installation#powershell-script-example>
+'''
+'''
+# Question: 122
+Hello team,
+
+AON has an urgent ask to restrict formatting of the data that user input for a task or validation station before they submit the task so they can guarantee data quality coming through from users. Currently we have Business rule under Taxonomy manager that highlights the fields when it doesn't fit the formats provided. However, the fields takes anything from user. if the field is a datetime type, it still accepts string such as "open for 15 days" into the datetime type field.
+
+Can we please add this into the roadmap or if we have this in a roadmap already, can we put it as higher priority?
+
+cc: <@WLZJKF8MD><@WLRCSKMED><@U057MRGJ6ET> <@WLXNSVA9W> <@U01EQLWUSTH> <@WLZ4S9GJD> <@U0239V0EHT2> <@WRZ0AHGVC>
+** Probable Answers: **
+1. cc: <@U01TA9WMT0E> <@WLRCUUUTT> does this fall under the purview of business rules?
+2. Yes. Will add to specs on formatting. 
+3. :tada: *New note created.*
+'''
+'''
+# Question: 123
+Hi Team,
+I have customer who is using form task and action center. They have used a HTML content control to display a multi-page PDF. Every time any value is changed on other controls (e.g, text box), it refresh the HTML control which holds the PDF and bring back the PDF on first page. is there any way to keep the PDF on the same page as the user was on ?
+** Probable Answers: **
+1. Hi Priyesh, Please ask customer to make sure the property RefreshOnChange is disabled. Secondly, ask customer to perform below check:
+1.  Open the Json editor of the Pdf HTML element and search for RefreshOn. Assign it the value of the argument's name, Example: "refreshOn": "doc_storage".
+
+'''
+'''
+# Question: 124
+Hello,
+In ActionCenter in create form task ,we select the data&amp;time in OpenFormDesigner, in studio the date&amp;time is not the same as the one from OpenFormDesigner.
+Screenshots and sample project attached.
+Have you seen this behavior before?
+Thanks
+** Probable Answers: **
+1. <@WLXPT7Z1T> Are you able to help?
+2. <@WLZTEH4J2> FYI
+3. I'll look into this <@U02GE04AN5S> and revert back
+4. Hi <@U02GE04AN5S>
+The value that you set in Studio is in UTC values and when it is displayed/redered in Action Center it would show up in Local Timezone.
+
+Unfortunately the options to let user control this behaviour is not available. We're taking this issue with our third party dependency <http://Form.io|Form.io> and a fix from them will take a lot of time until that I would suggest that we use back calculate the values and set the UTC values (in Studio) of the actual values to be displayed in Action Center.
+
+cc <@WLXPBCD0V> <@U03E3EYC7QD>
+5. <@W0173AXGRP1> Thank you.
+'''
+'''
+# Question: 125
+Hi team, we have a customer trying to access action center (it is empty, no catalogs or actions). This person has the admin role and everytime they click on the action center they get the error below.
+** Probable Answers: **
+1. we removed the service and recreated it, still getting the same issue
+2. <@U057BU0KUTS> FYI
+3. <@WLLB9GMNX> Assign a license.
+4. I will double check but the person has an automation developer license.
+5. What next <@WLLB9GMNX> ?
+6. How can I help?
+'''
+'''
+# Question: 126
+Hello, we have a customer who has questions about how Action Center assigns action items:
+1. _Why is AC designed to first assign actions rather than automatically locking/releasing items as they are opened/closed by any user?_
+2. _Is a feature like this being considered?_
+I want to tell them that assigning/unassigning is the motion of opening/closing, but it appears they want something more streamlined and passive. I'd also imagine the current design is due in part to potential issues like accidental locking and how to define "opened", but would appreciate this team's perspective on how to respond. Thanks!
+
+CC: <@U01KLBEUR6J>
+** Probable Answers: **
+1. Hello, any input or guidance on a helpful response to the customer would be much appreciated. Thanks!
+2. hey Timothy, i'm not aware of the exact historical reasons but i believe
+• assignment better avoids race conditions - multiple users could have the same task open, but with assignment multiple users cannot have the same task assigned to them.
+• looking at competing platform implementations as well as from customer asks, explicit assign/claim for tasks has been a requirement
+• we do not have a plan to reconsider this in the short term roadmap
+3. Got it, thanks!
+'''
+'''
+# Question: 127
+Hello Team, I have a quick question. Can an Action item be assigned to a group email id? If yes how does that work?
+** Probable Answers: **
+1. Sorry, I saw someone asked this question already and response was its not possible
+'''
+'''
+# Question: 128
+Hi Team, I am working for customer project I need to get LastAssignedTime &amp; CompletionTime from validationAction, ClassificationAction Objects but its giving null value even the task is completed in action center.
+Intelligent OCR Package version: 6.14.1, ML Activities Package :1.24.0, WebApi Version : 15.0
+
+cc: <@U02601Y3RJ9>, <@WLZJY3JR5>
+** Probable Answers: **
+1. <@WLXNTH3DE> , can you please poit us to the right person for checks?
+2. <@WLXNTH3DE> can you please let me know to whom I can reach out. This is really important to close the development activities.
+cc: <@WLRCUUUTT>
+3. <@U0202JXM1PY> please verify and log issue if necessary
+4. Hi <@U02J2QT6XTL>! From what activity output are you trying to get the LastAssignedTime and CompletionTime values? These values should be populated for the output of _Wait For Document Classification Action And Resume_ activity, and they are null for _Create Document Classification Action_ activity
+5. <@U0202JXM1PY> I am just trying for both wait document classification & validation for both of the objects it gives null, but we checked DB (dbo.tasks) it was updated
+6. I did not manage to reproduce the issue, can you maybe share a workflow?
+7. <@U0202JXM1PY> I cannot share the workflow since its done in customer environment
+8. What version of orchestrator / action center are they using? is it cloud?
+9. its Onprem 22.10
+10. <@U02J2QT6XTL> who is the customer? *<https://uipath.lightning.force.com/lightning/r/Account/0013600001p64oZAAQ/view|Medline Industries, LP>*?
+11. Yes Medline
+'''
+'''
+# Question: 129
+Hi Team,
+I have a partner who is trying to recreate a similar screen as the Validation station in action center for DU. But for business exception validation and 3way match. Essentially they want to have the invoice image fixed on the screen and be able to scroll through the fields that needs to be validated on the left hand pane just like the validation station. How would they go about achieving this using the form builder?
+** Probable Answers: **
+1. Hello <@U01UDQ5S0NR> - can you please give me more details in private? (I am working on identifying a solution to this real-time business exception validation and your customer’s use case could help)
+'''
+'''
+# Question: 130
+Hi team,
+I need to create a form in the Action Center that contains tables with two columns. The end user should be able to update the values in the second column by selecting a value from a drop down list (see attached image). Could someone help me to populate the drop-down list dynamically, instead of adding all the options in Form Designer-&gt;Drop-Down List-&gt;Data-&gt;Data Source Values?
+PS: I`ve tried *Creating a dynamic dropdown inside a Data Grid example (*<https://docs.uipath.com/activities/other/latest/workflow/dynamic-dropdowns>*),* but it doesn`t work for Create Form Task activity*.*
+Thank you :slightly_smiling_face:
+CC: <@WLLAVTZ7U>
+** Probable Answers: **
+1. Hi Roxana, Is it possible to share the workflow?
+2. Sure, I`ve created an example similar to this one: <https://docs.uipath.com/activities/other/latest/workflow/dynamic-dropdowns>, but with Create Form Task.  Result: no options in drop-down list.
+'''
+'''
+# Question: 131
+Hi Team, Regarding the prerequisite for Action Center Stand alone 2022.4, it mentions an OC version of 2022.10.0+. Is it correct to understand this as a typographical error and that it should be 2022.4.0+?
+<https://docs.uipath.com/ja/action-center/standalone/2022.4/user-guide/introduction#prerequisites>
+** Probable Answers: **
+1. FYI <@U036HL477AQ>
+2. Thank you, Manas! Sho, it should be 2022.4 Orchestrator. The version of Action Center can't be higher than the standalone Orchestrator that you're using.
+3. @Antonia Petrescu created a Bug DOC-10178 Correct Orchestrator version for Standalone Action Center 2022.4
+4. <@U036HL477AQ>, the same type of typo for <https://docs.uipath.com/action-center/standalone/2023.10/user-guide/introduction>. The OR version mentioned 2023.4.0+ for AC Standalone 2023.10
+'''
+'''
+# Question: 132
+Hi Team, We have a prospect . They had one issue where they want to capture the audit logs for task removed. They want to know, who removed the task and the task id. Right now, they are not able to see that in audit logs. Is there a way to check that ? cc <@U01R3JSJYGJ>
+** Probable Answers: **
+1. <@WLXPBCD0V> any reason this is not captured today? are there any technical challenges to adding this to audit logs?
+'''
+'''
+# Question: 133
+Hi team; I have a customer that wants to deploy AC standalone; they have Orchestrator 2021.10 and .Net framework 4.7.0319; in our documentation it states that Standalone AC needs .NET framework 4.7.2; does this mean that is mandatory to update to 4.7.2 or newer or it could work with their current version?  (they have multiple Orch servers)
+** Probable Answers: **
+1. Any guidance on this?
+2. <@WLXPBCD0V>
+3. hi <@WLXPBCD0V> could you help out here, please?
+cc: <@U056QMZKLUU>
+'''
+'''
+# Question: 134
+Hi, I'm looking for a demo workflow that builds a nice action center task, something impressive.
+I would appreciate it if someone could share something...
+** Probable Answers: **
+1. maybe use the <https://forum.uipath.com/t/extraction-automation-builder-with-predefined-document-types/540085|extraction automation builder in DU>? :slightly_smiling_face: or do u need something else Snir? :smile:
+2. Thanks Monica!
+In this case I am looking for something that is not related to DU. I need a classic action center form.
+3. We are soon to release in preview Apps in Action Center i.e. you can use any app in action center task. If that works, probably <@W0173AXGRP1> can share some sample.
+'''
+'''
+# Question: 135
+Hi team, I have a partner that has an Action Center form with multiple fields marked as required in a data grid, but when they pass in values to pre-populate the fields, the form doesn't recognize it and the submit button is disabled. To get the form to recognize the fields, they need to change the value then reset it back to the original value. Does anyone know how they can fix this?
+** Probable Answers: **
+1. <@W0173AXGRP1> - please take a look.
+2. <@WLXP0272L> Could you please share me the sample workflow for the same where this issue could be reproduced?
+3. In this project, there's a "Sample_Worfklow.xaml" that will create the action item
+4. <@W0173AXGRP1> were you able to take a look at this?
+5. cc <@U030B8VP7DM> <@U039NAR4VCM>
+6. <@W0173AXGRP1> can you join a call Monday morning? 9am EST/8am CST?
+
+cc: <@WLXPBCD0V> <@U039NAR4VCM>
+7. Can we schedule it today or tomorrow 9am EST?
+'''
+'''
+# Question: 136
+Hi Team! Medline is looking for the ActivityType found in the TaskActvities Table, example below.
+** Probable Answers: **
+1. ActivityType are the enum values which are defined <https://github.com/UiPath/Orchestrator/blob/develop/src/DataContracts/DataContracts/Enums/Tasks/TaskActivityType.cs|here>. For your reference, below are the mappings:
+```        /// &lt;summary&gt;
+        /// Tasks is created
+        /// &lt;/summary&gt;
+        Created = 1,
+
+        /// &lt;summary&gt;
+        /// Task is assigned to user
+        /// &lt;/summary&gt;
+        Assigned = 2,
+
+        /// &lt;summary&gt;
+        /// Task is Re-assigned to another user
+        /// &lt;/summary&gt;
+        Reassigned = 3,
+
+        /// &lt;summary&gt;
+        /// Task is un-assigned from user
+        /// &lt;/summary&gt;
+        Unassigned = 4,
+
+        /// &lt;summary&gt;
+        /// Task data is Saved
+        /// &lt;/summary&gt;
+        Saved = 5,
+
+        /// &lt;summary&gt;
+        /// Task is forwarded to another user
+        /// &lt;/summary&gt;
+        Forwarded = 6,
+
+        /// &lt;summary&gt;
+        /// Task is completed
+        /// &lt;/summary&gt;
+        Completed = 7,
+
+        /// &lt;summary&gt;
+        /// Comment added on task
+        /// &lt;/summary&gt;
+        Commented = 8,
+
+        /// &lt;summary&gt;
+        /// Task is deleted
+        /// &lt;/summary&gt;
+        Deleted = 9,
+
+        /// &lt;summary&gt;
+        /// Task is bulk saved
+        /// &lt;/summary&gt;
+        BulkSaved = 10,
+
+        /// &lt;summary&gt;
+        /// Task is bulk completed
+        /// &lt;/summary&gt;
+        BulkCompleted = 11,
+
+        /// &lt;summary&gt;
+        /// Task First Opened
+        /// &lt;/summary&gt;
+        FirstOpened = 12,```
+2. Thank you, <@WNX660CV9>
+'''
+'''
+# Question: 137
+Hi Team, Is there any way we can add some labels to DU Classification/Extraction Action Task while using studio activities for creating Task using Create Document Classification Action/Create Document Validation Action?
+Business Requirement is to add some error details to task why the document has sent to action center.
+
+cc: <@U02601Y3RJ9>, <@WLZJY3JR5>, <@W019DDXCC22>
+** Probable Answers: **
+1. Comments could be added using Add Task Comment activity , Labels could be added using Update Task Labels activity from persistence package
+'''
+'''
+# Question: 138
+Hi Team, Customer is looking for below data in status report for the DU Action Task, Is there a way to get this data?
+1. Fields corrected by user in action center regular/line-items.
+2. Number of users worked on given task & cummulative time they took to complete the task.
+cc: <@U02601Y3RJ9>, <@WLZJY3JR5>, <@W019DDXCC22>
+** Probable Answers: **
+1. Cc: <@WLXNYUESC> <@U01TA9WMT0E>
+2. hi <@U02J2QT6XTL>! the information is not yet available - however, we have a feature called Active Learning which provides new DU projects, able to monitor the data above - and there you can find the information :slightly_smiling_face: I’m posting a video for you to see what I mean, reach out to me/let me know if it does not help or for details :slightly_smiling_face:
+3. <@U01TA9WMT0E> we need go update all the details in some database/queues as part of reporting is it possible to get the above details through Action Object or via Action Center API's.
+
+1. we just need to get what fields are updated in action center by user.
+2. we are looking for something like history of particular action task like how many people assigned, unassigned how much time they have spend for that task completion.
+'''
+'''
+# Question: 139
+Hi Team! Do you currently have a customer that is leveraging Action Center as a way to manage exceptions. Is this possible and how would this work?
+If this is not possible what recommendations would we offer the customer?
+
+My initial thought is this will not work and my recommendation would be to track reworks:
+1. Apps
+2. Insights reporting
+3. Notifications i.e. email, teams, etc
+Thanks in advance (edited)
+** Probable Answers: **
+1. Hi Chris,
+IMO, it depends on type of exception: Business or System/Application/etc.  My customer and I have met multiple times to talk about architecting ideas for them to handle not only business verification tasks but also as a method of correcting some of their simpler application exceptions to quickly correct and resubmit for processing (using the forms activities vs Apps).   I am not sure if they've implemented it but don't see why not.  We've only confirmed they use Action Center for DU or for business rule verifications.
+
+In most of thier smaller automation teams, they use Notifications via email and output exceptions to a spreadsheet for manual correction - This was an older method and they may have rearchitected by now... but... they usually function on an "If it ain't broke..." decision method :sweat_smile:
+2. <@WLLAWTCE6> do you have any diagrams or notes? (even in rough form) love me some synergy
+
+<@U037AALP9CK> Were you thinking something like?
+1. Exception generated (but caught by e.g. REFramework, so processing continues with next item)
+2. Action Center item generated for the failed item
+3. Normal AC flow where it gets assigned to a user to investigate
+4. User kindly does the needful for the failed item
+5. Action Center used for visibility into failed item resolution (might need some AC vs queue matching in Insights for full visibility
+3. <@U033QAUEN9L> - Not on hand, we were limited to v21.10/v22.10 AC and based discussions around the HighSpot product slides and our docs to review / guide their understanding and brainstorming.  Mostly what you laid out above is the route we discussed, good synergy already! :grin:
+4. it actually sounds like a really good toggleable in REFramework, as the unattended-side support should be simple (just create an AC item while you're in the exception handler)
+5. <@U033QAUEN9L>, That is exactly what the customer was thinking. Would someone be able to send information from the queue item found in Specific Data to AC and what would the action center item look like?
+6. I tried creating an action and nothing is displayed in the action. It doesnt seem to work OOTB.
+7. That's interesting, which version are you working with? AC?
+8. <@U037AALP9CK> can you email me your test project? I can take a look
+9. <@U033QAUEN9L> It's a simple process
+10. <@U037AALP9CK> Have you looked at the Orchestration Process template? That seems to be the workflow to use. I can't find a User Guide for the template anywhere though.
+11. I can take a look at that but I'm not sure if it does the same since it looks like the process will essentially wait for the action item to be completed. I believe it's going to be more about fire and forget. Meaning they would create an action item if it's a BE or the last retry of an SE. Then they would use the action item complete the work manually.
+12. <@U033QAUEN9L>, Did you get a chance to review the solution? Did I do something wrong?
+13. FYI... Ethan and I tied off and we found that I am using the wrong type of task to create a form. External &gt; Form.
+'''
+'''
+# Question: 140
+Hi Team,
+
+One of our customer is trying to submit the task using the API ("forms/TaskForms/CompleteTask") and its returning the response "This action is no longer assigned to you".
+
+I have tried replicating the issue at my end and observed that when the task is assigned to User A (<mailto:Vishnu.Kothamasu@uipath.com|Vishnu.Kothamasu@uipath.com>) and able to submit the task.
+When i assigned the task to User B (<mailto:balamanikanta.krishnam@uipath.com|balamanikanta.krishnam@uipath.com>) and getting the same error as mentioned above.
+Both the users have administrator roles we also provided the Org admin role to the User B but no luck.
+From the analysis my findings were the only difference between the User A and User B is User A is a local user and User B is a Directory User.
+But however I have one more User with account type as Local User so we tried assigning to that User C but still its giving the same error.
+
+Need your help in understanding why we are unable to submit the actions using API.
+
+Thanks in advance.
+** Probable Answers: **
+1. <@U0221Q1BUH4>, let's discuss over the call
+2. This is getting tracked in <https://uipath.atlassian.net/browse/SRE-170114>
+'''
+'''
+# Question: 141
+Hello team. I have a case where cx wants to change OnPrem Action Center URL post install. Is it recommended to reinstall it or we can just go and update the URL in the following places:
+• ActionCenter/*Actions*/environments/env.json
+• ActionCenter/*Processes*/environments/env.json
+• SQL tables --&gt; identity.ClientRedirectUris --- identity.ClientPostLogoutRedirectUris
+• Regedit Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\UiPath\UiPath Action Center
+** Probable Answers: **
+1. I had tested the manual change and it worked fine, I see no errors in event viewer and can access the site without issues.
+• Could this cause any kind of issue in the future?
+'''
+'''
+# Question: 142
+Hi team, Is there any way to change TCP port after installing On-Premise Action Center?
+My client knew the port can not use after install..
+** Probable Answers: **
+1. It is not possible to change TCP port after installation as installation step register AC details (URL and port number) to the identity service.
+However, you can uninstall and reinstall the AC on a diff port. This step will not cause any data loss
+'''
+'''
+# Question: 143
+Hi Team, can we format the text in the TextArea component?
+
+For example, the customer wants the text to appear on a new line.
+
+We tried adding a "&lt;br /&gt;" tag to the text and the text appears on the new line however when we assign the action to a user the user could see the "&lt;br /&gt;" tags as well.
+
+The customer does not want the show the "&lt;br /&gt;" tag to the end user as they are business users.
+
+Please let me know if the above is feasible and if not then any alternatives to achieve the same.
+** Probable Answers: **
+1. You can try using `\r\n`  in place of `&lt;br&gt;`  tag. Below is the example of new line in unassigned and pending task:
+2. Hi Manas,
+
+Thank you for looking into the issue.
+
+I have checked the behavior at my end and was unable to make it work.
+
+Attaching a sample workflow for reference. In the workflow I am assign a text value and adding the "\r\n" in the "sampleTextArea" variable. I am passing the same variable as an input to the Form.
+
+Do let me know if I am missing something.
+3. As you are using VB, we have couple of workarounds:
+1. use VbCrlf
+2. use Environment.NewLine
+
+4. Hi <@WNX660CV9>, Thank you for the suggestions.
+
+However, the customer checked the behaviour at their end and found a different behaviour with the Edit Grid component and DataGrid component.
+
+The above suggested workarounds seem to work in DataGrid but it does not work in Edit Grid.
+
+Kindly let us know if there is some way that works in the EditGrid component.
+5. I will check it tomorrow 
+6. Hi <@WNX660CV9>, Do we have any update?
+7. Hi <@WNX660CV9>
+Can you please check this today, the case has been pending for a while. thanks
+8. Today <@WLZJP9J15> and I looked into the editgrid scenarios. None of the above solutions worked for editgrid read-only mode. However, in edit mode, we can see the new lines.
+<@WLZJP9J15>, I would suggest to use css for making newlines work in read-only mode. You can try using
+`white-space: pre-line` for this use case - <https://developer.mozilla.org/en-US/docs/Web/CSS/white-space>
+'''
+'''
+# Question: 144
+HI, Team.
+My customer has a problem.
+Using the DigitizeDocument activity, he converts a PDF file into a Document Model. Content is in Japanese. The OCR engine is CJK. The identification results are posted to the Action Center using the CreateDocumentValidationAction activity. The issue lies in the Action Center where not all the strings are being displayed. During debugging, the text in the PDF is correctly identified. Please provide a workaround for this problem.
+Action Center: Standalone 21.10.4
+Brower: Chrome
+** Probable Answers: **
+1. please post in <#CQ7R1EQL8|help-documentunderstanding>
+2. does the ExtractionResults object that you feed into the Validation Station task creation activity contain those strings?
+3. <@WLRCUUUTT> Yes, it contained those string.  And I tried this project in my Automation Cloud. All of the strings could be displayed in Action Center.
+4. Hello <@U02QPDVRUBZ>, I don't think I understand - this is what gets extracted in the test project and how it looks in Validaiton Station - what else should be there? <https://zoom.us/clips/share/5rkmc9RL1QfY_hB-idIwSQAyizSPlO4-y04mFGxF6DSxf4xvH06HIAPggjKt2sJ6t7amqO4kw7iU7oXVkdFj0rFg.RRMqmKZdmDTTjPRV>
+5. BTW, I did need to install some font - Adobe, when I first opened the PDF, asked me to install missing fonts, and I clicked ok.
+6. Can you please try to open the file on your computer using Adobe Reader and see if you can see it correctly? If it does ask you to install something, maybe try to see if it gives you ifnormation about what it is trying to install?
+7. And after you install it, see if you can see the task correctly? I don't yet know where the issue comes from, trying to identify if the font isntallation actually solved the issue on my machine only (which I don't want to backup and send to production :))))) )
+8. Hi <@WLRCUUUTT>
+I took over this issue from <@U02QPDVRUBZ> since he is now on a leave. Just tested out reading the attached PDF, then found there was no pop-up to install font when opening the file with Adobe Reader. Also the letters on PDF are able to shown as expected.
+Will test to see if I am able to see the letters on On-Prem Action Center.
+9. hi <@WLRCUUUTT> I have reproduced on 21.10 Action Center.
+I found that the fonts of PDF file is [KozMinPr6N-Regular].
+Then I converted this file to a new pdf file by using Print as PDF.
+All of the words could be displayed.
+So I guess it is a problem of <http://fonts.Is|fonts.Is> it a bug of 21.10?
+
+According to the following guide, update to 22.10 maybe can resolved this problem. Is there any other solution with 21.10 Action Center?
+<https://docs.uipath.com/action-center/standalone/2022.10/user-guide/release-notes-2022-10-0#bug-fixes>
+10. as far as I can see, the issue is fixed in 22.4 on-prem, latest... and of course in 22.10.
+
+There is no workaround that the customer can do at this moment, to my knowledge...
+
+Is it very complicated for the customer to upgrade to a newer version?
+11. &gt; as far as I can see, the issue is fixed in 22.4 on-prem, latest... and of course in 22.10.
+Thank you!
+&gt; Is it very complicated for the customer to upgrade to a newer version?
+I have no idea about this. I will suggest the customer to upgrade to a newer version.
+By the way, do you know that do we have a jira for this?
+12. before you recommend an upgrade, any chance you can test with a 22.4 latest or a 22.10? I don't have one at hand to test with this particular doucment
+13. I have a jira ticket with the fix, about a year ago
+14. is that what you need?
+15. the internal (old and fixed) jira ticket is here <https://uipath.atlassian.net/browse/ACTV-14061>
+'''
+'''
+# Question: 145
+Hi team,
+Does Action Center have the ability to change the logo and design as it does in Orchestrator? If a customer has several Action Centre environments, one for validation and one for production, they want to know if it is possible to differentiate between them to avoid human error, such as accidentally operating a different environment
+** Probable Answers: **
+1. Hi <@WMLCGBZJM>, at this moment, I don't think we have any such settings for AC.
+<@W0173AXGRP1>, do you know if we have such settings?
+'''
+'''
+# Question: 146
+Hi Team, a customer (Navia Benefits Solutions) had an issue regarding the Date/Time component in Forms.
+
+*Description*:
+• The customer wants to show a pre-defined date in the form.
+• They are passing a variable of type DateTime as an input to form.
+• For User-1 in the IST timezone while viewing the action in Action Center correct time is displayed. For example: `20-12-2023` [dd-mm-yy]
+• For User-2 in PST timezone while viewing the action in Action Center incorrect time is displayed. For example: `19-12-2023` [dd-mm-yy]
+*Steps Performed*:
+1. We have tried changing the "displayInTimezone" property from "viewer" to  "location" and setting the "timezone" property to "PST8PDT" but still the issue persists.
+2. Similarly, we have tried changing the "displayInTimezone" property from "viewer" to  "submission" but still the issue persists.
+Is there any way to show the same date across all timezones? Thank you :thanks-bowing-man:
+** Probable Answers: **
+1. <@WLZJP9J15>, we are tracking this in <https://uipath.atlassian.net/browse/SRE-166610>. I will discuss with the team tomorrow and will update on the ticket. Most probably, it will require code changes from our side
+2. <@W0173AXGRP1> and I spent some time on this. we tried to follow <https://github.com/formio/formio.js/wiki/DateTime-Component#display> but could not see it happening. We will keep debugging this further and let you know the outcome
+'''
+'''
+# Question: 147
+Hi Team
+I am not able to view Tasks in Completed tab in Action Center
+Can anyone please help me on this
+** Probable Answers: **
+1. <https://uipath-product.slack.com/archives/CMBFRH7HA/p1703069147035179?thread_ts=1703069075.368439&amp;cid=CMBFRH7HA>
+2. Are these DU tasks?
+3. Yes
+4. <#CQ7R1EQL8|help-documentunderstanding>
+5. I have posted Thanks
+'''
+'''
+# Question: 148
+Hello Team,
+
+*Issue*: The AD group is added inside the Local group. After this, the users inside the AD group are not getting permissions (say task assignment permission)
+
+*Details*:
+
+• AD users were directly added and it's working.
+• Adding the AD *group* inside the Local group for easy management is not working. (The local group is working fine as expected)
+• Cloud Orchestrator | 4610-8862-4321-3743
+*Findings*:
+
+• Logged in to Orchestrator API as the *specific AD user.* Could assign the task via API
+• Logged in to Orchestrator API as the *Robot user*. Could assign the task via API
+• Even though the task assignment is successful for AD users via API, it's not working normally.
+Appreciate your help and thanks in advance!
+
+cc: <@WLZJP9J15>
+** Probable Answers: **
+1. Appreciate your help <@WNX660CV9>
+2. <@U0276RKSD8D>, are you available for a quick call?
+'''
+'''
+# Question: 149
+This message was deleted.
+** Probable Answers: **
+1. please post in <#CQ7R1EQL8|help-documentunderstanding>
+'''
+'''
+# Question: 150
+Hi Expert,
+
+Could you correct or confirm my understanding please?
+I understand that AI Unit consumption can be checked only on Admin page of Automation Cloud, but not on AI Center pages, am I right?
+Any help would be appreciated!
+** Probable Answers: **
+1. please post in <#CMJFF5BDJ|help-aicenter>
+2. <@WLXNYUESC> Oh I'm sorry. I posted it wrong place. Thank you!
+'''
+'''
+# Question: 151
+Hello team, is there a release calendar available for Cloud? my customer Cigna would like to understand when the next deployment to GxP is going to be (after the freeze) and what's included that could potentially impact them, they will be entering a critical period from Jan 1st -19th and they would like to be prepared, thank you!
+** Probable Answers: **
+1. Hello <@W01958JV1QE> the next deployment on cloud post freeze for Action Center is first week of Jan. May be 03/Jan on GXP. We can be a little flexible here in case if the deployment should be pushed out to the week of 08/Jan, which might be the case in case the team's support is thin following the holidays
+2. I have most of the teams aligned to 19th or 25th, Data Service, Insights, Apps, would it be possible?
+3. Let me review this with the team and get back
+4. <@W01958JV1QE> we had a discussion on this. Jan 19th or 25th seems to be a concern for us considering the amount of sprint payload that will be out of sync from our enterprise rings.
+
+Tagging <@WLXNYUESC> and <@WLXPBCD0V> here for discussion, to understand the concern Cigna may have.
+5. They get into a critical period from Jan 1st to the 19th due to open enrollment, and they currently have 15k attended users which could be impacted is something breaks, they have shared that all the incidents would be submitted as critical during that period due to the criticality, we could also share what is going to be deployed on Jan 3 ahead of time so they can test, however if they encounter an issue they would submit it as critical, they had a call with our leadership to share the same and ask for collaboration where possible
+6. <@WLXPBCD0V> is this something we can support?
+CC: <@WLXNYUESC>
+7. This is their requirement
+
+Stability Period:  12/11/23 6:00AM ET - 1/11/24 11:59 PM ET
+Ramp-up Period: 1/12/24 - 1/19/24 (~50% of normal change volumes will be approved)
+Business as Usual: 01/20/24 onwards
+
+even after 1/11 could help but preferably after or on the 19th if possible
+8. <@WLXPBCD0V> can you please review and advise?
+9. Hi <@W01958JV1QE> - we are currently in deployment freeze which will last from today till  1/3 (3rd Jan). As I understand, the ask is for extending the freeze till 1/19. This should be mostly  possible. I will come back here and confirm by today.
+10. <@W01958JV1QE> We discussed this internally and we think we can defer the GXP deployment for Action Center to 22/Jan. I hope this works. Please confirm, so that we can schedule accordingly.
+
+CC: <@WLXNYUESC> <@WLXPBCD0V>
+11. that would be perfect, thanks!
+'''
+'''
+# Question: 152
+I'm working in the staging area and periodically get the error that the document could not be fetched after the action completes. Using the DU Framework. It works sometimes, so the plumbing seems to be connected. Is this something that is only in staging? Is there a troubleshooting step?
+** Probable Answers: **
+1. Hi Michael! The actions are completed; by default action data gets cleared as soon as the job resumes, so there's nothing AC can display.
+'''
+'''
+# Question: 153
+Hi Team I do have a question, hope you can help me, customer on a case wants to create a Role for Action center that can be an only view users, able to access the Mange Actions menu, however to have access to this menu they need the edit role? is there a a way to set up an only view user to have access to the Mange access Menu?
+** Probable Answers: **
+1. Hello Erick,
+Currently read-only admin role does not exist.
+This is in our backlog tracked by <https://uipath.productboard.com/feature-board/838138-action-center/features/5212688/detail>
+however this is not committed to a release yet
+2. Hi Liji Thank you for the confirmation, gonna update the customer,
+'''
+'''
+# Question: 154
+hi all,
+
+I have a customer with multiple forms/actions in Action Center with required fields. Should any of the said fields not get filled out, a mandatory field green button representing the form FieldKey will grey out. From here, the customer wants to be able to Edit Bulk Actions and click a Submit button which should then either refuse to submit and display an error listing the forms with required fields still empty else just gray out as well.
+
+My thought is this might be possible via conditions on components else Javascript:
+
+<https://docs.uipath.com/activities/other/latest/workflow/conditional-components>
+
+But am unfamiliar on how FieldKeys are passed between forms else the syntax needed to make this happen. <@W0173AXGRP1> and <@WLXNYUESC>, the customer mentioned they had worked with you over the space of a month on this and other action center related issues. In the feedback you had provided them "Bulk form field key would refer to form field collection values that were mapped to field key in a normal form., that's the link between them.", how do we establish said mentioned link? Thoughts welcome.
+** Probable Answers: **
+1. We are about to release Apps in Action Center. You should use Apps and it can easily do all these checks.  <@W0173AXGRP1> <@WLXNYUESC> any reason why we are not suggesting that?
+2. Hello <@U05GAQZRBUZ>,
+Apps Action Center is not yet in preview or available for enterprise consumption and does not have all the features that customers are looking at. Specifically bulk edit/complete that this customer is trying to implement.
+We need to protect existing customer base who are in various stages of their project using forms as the only available custom visualization option and we have not called out Task forms as out of support. We need to do it gradually after we first release Apps as a user interface, bridge the product gaps. Until then, we will need to engage/support customers who are using forms.
+3. Hi <@WLX9BQS2G>, I have replied to <@U055QCLSS8M> in The DM. The Submit button in Bulk form needs to be disabled in order to prevent user from submitting in Bulk Edit mode. User will save the bulk edit data and take the action on individual tasks.
+4. <@W0173AXGRP1> ok. How does the user save the bulk edit data? So they just click the save button on each form and then add a submit button to each form as well?
+5. To save the bulk edited fields,user should add the data into the fields, and click on the save button (save icon) in the header bar.
+To submit the form, open each form individually, user will find the bulk edited data pre filled, user can fill all the other required fields and then submit the form.
+6. <@W0173AXGRP1> Customer responded today: "Sharon shard this with me as well but it doesn’t create the best user experience. Implementing this would require them to individually submit each action item which creates more work for them. Is there a way to bulk submit from the regular non bulk form screen?"
+7. Hello Vincent,
+Two ways to use bulk complete / bulk edit form.
+1. Update same information in multiple forms at a go without completing the form, example tax code to be updated the same in 500 tasks. Update this field, save it and users can review tasks individually and submit. In this case, it is ideal to disable submit/complete task button that would drive users to use 'save' icon in the header.
+2. Update set of fields and complete tasks in bulk. In this case, bulk form should contain all the bare minimum fields required for task completion including all the validations as required.  Runtime validations are not done across bulk form ,comparing with original form for every bulk completed task at present as it will be highly performance intensive. I believe RPA devs can make the experience better by designing bulk form with all the validations required to complete a task (bring all mandatory fields on to bulk form?
+Bulk submit requires bulk form as it is an explicit decision to allow bulk completion (and bulk editable fields). We will take this feedback as an improvement in our backlog  .
+8. <@WLXNYUESC> <@W0173AXGRP1> Customer came back with the following:
+
+"Neither of these options are good user experiences for our users. Are there any other options that you would suggest?
+
+Is this bulk complete/check required form fields improvement something that you are able to prioritize in the backlog?"
+
+What would be the recommended next steps at this point? Should I go ahead and create a feature request and TIF?
+9. Created TIFF: <https://uipath.atlassian.net/browse/SPM-4075>
+'''
+'''
+# Question: 155
+Hello Team, Quick Question related to this Jira - <https://uipath.atlassian.net/browse/ACTV-65859>. May I know if the fix is pushed to Prod?
+** Probable Answers: **
+1. cc <@WLXNV2TLY>
+2. <@WLXNYUESC> this was merged in S129. Can you please confirm that it was deployed in all regions?
+3. <@WLXNV2TLY> S-129 was deployed in all the rings other than delayed ring last week as per the sprint calendar
+4. <@WLXNYUESC> <@WLXNV2TLY> so does this mean that customer can test this now? Also, will this be updated in our Release Notes, for now I do not see any updates after 27th November - <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/release-notes-november-2023>
+5. <@U01QEN8RW4X> can you please let us know where are the docs for it? I can see the DocStatus is Done <https://uipath.atlassian.net/browse/ACTV-65859>
+6. This is mentioned in<https://docs.uipath.com/document-understanding/automation-cloud/latest/user-guide/training-high-performing-models#6-define-and-implement-business-rules| Training High Performing Models>, <https://docs.uipath.com/document-understanding/automation-cloud/latest/user-guide/taxonomy-overview#field-types-and-details|Taxonomy Overview>, and <https://docs.uipath.com/activities/other/latest/document-understanding/present-validation-station|Present Validation Station> pages.
+'''
+'''
+# Question: 156
+Hi team, hoping you can shed some light on this customer question. TLDR is, what HITL support do we provide in Action Center for _other_ IDP vendors? It wouldn't be nearly as seamless, right?
+** Probable Answers: **
+1. Hello Daniel,
+We do not have any out of the box support for validating extracted content from other IDP vendors and our priority has been to integrate with our DU & AI Center services for providing out-of-the box HITL solution.
+Having said that, our workflows can consume any IDP end points , process , extract data and we provide support for custom user interfaces for human validations with in Action Center (using forms today, with Apps in early Q1 '24),  they can build custom validation UI for non-DU cases .
+As a side note, It will be interesting for our DU team to understand why customer is exploring other IDP vendors
+'''
+'''
+# Question: 157
+Hello
+
+We found the following issue: When we wanted to run a project with the "ResumeAfterDelay" activity added to the second workflow in StudioWeb it crashed: <https://uipath.atlassian.net/browse/SW-10435>
+
+It also reproduces in StudioDesktop.
+
+Can someone take a look if this relates to the "ResumeAfterDelay" activity?
+
+
+<@WLXPT7Z1T> suggested writing about it on that channel.
+
+cc: <@WLXPBCD0V>
+** Probable Answers: **
+1. persistence points (wait &amp; resume activities) are only supported in main.xaml as documented as the first point here
+<https://docs.uipath.com/studio/standalone/2023.4/user-guide/orchestration-process#best-practices>
+2. Thank you <@WLXNYUESC> for clarification
+'''
+'''
+# Question: 158
+Good day,
+
+We are busy with an AI review use case for AC.
+
+All AC tasks are being reviewed by an AI panel if they can complete the task without referring it to humans.
+
+Q: Is there an Update Task activity that we can use to update instead of complete the task (Current only activity).
+
+We get the list of tasks, and if the confidence is high we complete the task, the issue with low confidence, we can't update/add info to fields and then keep it non-complete. Is there a way that we can update/edit only the task?
+** Probable Answers: **
+1. Persistence Activities pack only provides `Add Task Comment` and `Update Task Labels` . As a workaround, you can call `Orchestrator HTTP Request`  activity to update the task update task's metadata or task's data.
+2. Can we add this function in later request?
+3. Cc: <@WLXNYUESC>
+4. Hello <@WLZTLPFP0>, I have added this to product board here <https://uipath.productboard.com/feature-board/838138-action-center/features/24978088/detail>
+'''
+'''
+# Question: 159
+Hi team, our client, EY are doing their infosec review, and have found couple of findings. Can you let me know your views pls? Thanx.
+
+1. Form auto-complete should be disabled on fields collecting credentials, confidential information and PII.
+ Auto complete allows confidential data cached. Attacker can gain unauthorized access to the confidential data if the cached storage is compromised."
+It is observed that, form-auto complete is enabled on fields collecting “Catalog” information.
+*Corrective Action Suggested*: Disallow auto-complete function.
+
+2. All input (user and service) must be validated on the server side to permit only the allowed characters and limited field length necessary for the corresponding function. Without proper server side input validation, an attacker may construct input that circumvents access controls or produces a negative unexpected result. In our assessment, it is observed that the application (UiPath Action Centre) is accepting special/malicious characters in the input field. It is recommended to disallow such characters on both client-side &amp; server-side to avoid any other injection-based attacks.
+** Probable Answers: **
+1. Seems fair. Have you raised bugs for these?  <@WLXPBCD0V>?
+2. <@U05GAQZRBUZ> Created a ticket to take care of this and the apollo library updates:
+
+<https://uipath.atlassian.net/browse/ACTN-5112>
+
+CC: <@WLXPBCD0V>
+3. This ticket is to disable the auto complete and updating the package version. For point #2 we need to check which all fields are allowing special characters and need to consult with the product team on why was this available to begin with and if we need to have special characters here or not.
+
+CC: <@WLXPBCD0V> <@WLXNYUESC>
+4. Hi Team, any progress on point #2 pls?
+5. <@WLXNYUESC> For point#2, do we need to allow special characters? If not we can check which all fields allow special characters and we can fix them accordingly.
+
+CC: <@WLXPBCD0V>
+6. Hello <@U03DA6HLSCA>,  let's discuss this further and capture our approach in this ticket <https://uipath.atlassian.net/browse/ACTN-5137>
+7. Hi Team, Just checking any progress on #2 pls? Also, whats the message to be conveyed to the client?
+8. Hi <@WLRD592UR>, unfortunately, we did not make good progress on this issue yet <https://uipath.atlassian.net/browse/ACTN-5137> due to competing priorities.
+ <@U03E3EYC7QD> <@WLXPBCD0V> <@U03DA6HLSCA>, bumping this up to have this in our radar as we have to get back with a plan of action to EY
+'''
+'''
+# Question: 160
+Experts Hi, Within a DU project, I am trying to implement data check step before extraction ticket creation. For example, within a numeric field, if there is a "-" in front of the value, delete that minus sign and if ticket is created, don't show minus on the ticket. I was able to do it for singular fields. But, same implementation does not work if that field within table field. I am not sure if I am clear enough but I couldn't figure out whats the difference between regular field and table cells. Do you have any guess?
+** Probable Answers: **
+1. <#CQ7R1EQL8|help-documentunderstanding> 
+'''
+'''
+# Question: 161
+Hi All,
+
+I'm working on a use case with Admiral to try and get COE support for an AI driven use case where we are using GPT 4 to generate an action center action for us. The generated text in the text area appears in a box that resizes (since the text size will be variable) perfectly upon action creation. (See  first 2 screenshots)
+
+As soon as we assign the action the box shrinks again and we have to resize it manually (See 3rd screenshot for post assignment) is it possible for the text Area to keep this size and us not have to resize? its cumbersome and time consuming to resize (see arrow showing the small point you need to target for the cursor, you need very high precision with the mouse cursor!) for long messages. It removes a lot of the value of using this solution. doing this
+** Probable Answers: **
+1. Yeah but i'm not sure if its the form activity of cloud AC
+2. <@WLXNYUESC> maybe could you help us?
+Or <@U01QZSVLWUT> curious if you bumped into this with your projects? Feels quite common with GenAI capabilities
+3. Hmm seems like an action center rendering issue if you make the box dynamic. Could you instead have a non-size adjusting text field and keep it a fixed length to account for most email text generated? May be a better option in the short term
+4. <@U01QZSVLWUT> do you mean setting a minimum word length?
+5. Ignore that, it doesn't work
+6. I'm not sure how to hard code the dimensions of the text area or text field, i see here we can style text with a custom css file <https://docs.uipath.com/activities/other/latest/workflow/local-css-file>, but ideally we want a way to set pixel size for that field.
+7. <@WLXNYUESC> <@WLXPBCD0V> <@U044LMQ9M19> guys this is quite critical for us at EUI Limited. This is a strategic customer in the UK
+8. tagging <@U03B4909B42> who is the DRI for this week. <@U03B4909B42> can you please help here
+CC: <@WLXPBCD0V>
+9. <@U02EVUK474L>, please share form.json or workflow with which we could quickly reproduce this at our end.
+cc <@W0173AXGRP1>
+10. <@U02EVUK474L> Please share me a sample workflow, which could help me reproduce this. I'll look into this and help you on this further.
+11. Thanks <@U02EVUK474L> for helping me with the Workflow. We're looking at how this issue could be resolved.
+12. <@W0173AXGRP1> No problem at all! If you do find a fix to the front End is it possible to propagate the change early only to the customer's Cloud Organization as a quick patch? Or are are updates only bi-monthly? <@WLXPBCD0V>
+13. In general the releases are bi-monthly. We have a company wide freeze from 14th Dec, we'll try to fix this as soon as we can
+14. Hey <@U02EVUK474L>, the the fix is found. Please refer to <https://uipath.atlassian.net/jira/software/c/projects/ACTN/boards/1188?assignee=5f1829dd1a26ad00147898ac&amp;selectedIssue=ACTN-5105>
+15. GTM teams don't have access to jira anymore :melting-face: what's the targeted date fix?
+16. Hello <@WLXP4TP9N>, this does not require a fix in the product but can be done through a design time JSON configuration for that TextField control in the forms designer.
+17. oh, amazing. <@U02EVUK474L> hoping you have access.
+18. This is fixed in a call with <@U02EVUK474L>
+19. Thanks a lots <@W0173AXGRP1>. This is a big help for us
+'''
+'''
+# Question: 162
+*[Documentation issue]*
+Guys, the Managing Notifications section is wrongly put under the Embedding Actions in our documentation:
+<https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/managing-notifications>
+** Probable Answers: **
+1. Thanks for pointing this out
+cc <@U036HL477AQ>
+2. Thank you for the feedback! This seems to be a bug that will get fixed with the next republish of the docs. 
+'''
+'''
+# Question: 163
+Hello,
+Customer Veolia is asking if we can embed DU actions in Workday for operators to validate extraction. Is it possible ?
+Thanks.
+** Probable Answers: **
+1. <https://docs.uipath.com/action-center/automation-cloud/latest/user-guide/embedding-actions>
+2. Thanks <@WLXNYUESC>. I know this documentation. I just wondered if we tested Workday specifically. Or if we know about a customer who did it.
+Does it work via an iframe ?
+3. 1. It is embedding via iFrame and we have not tested with specific applications. 
+'''
+'''
+# Question: 164
+Hey Team,
+
+I wanted to check in about something our custom
